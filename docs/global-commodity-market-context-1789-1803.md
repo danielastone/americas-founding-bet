@@ -139,7 +139,7 @@ Adding a full China-trade narrative would exceed scope unless the evidence shows
 |---|---|---|
 | 1789–1791 | Post-independence market adjustment; new federal tariff and funding regime | Import response, customs cash, merchant adaptation |
 | 1792 | Securities and credit disturbance | Bank, Treasury, merchant liquidity |
-| 1791–1794 | Haitian Revolution and escalating Caribbean disruption | Sugar/coffee supply, refugee networks, re-export, seizures |
+| 1791–1803 | Haitian Revolution, war, and collapse of France's Saint-Domingue project | Sugar/coffee supply, refugee networks, re-export, seizures, and the Louisiana decision |
 | 1793 onward | European war and neutral-carrier opportunity | Freight, insurance, American tonnage, re-export, capture |
 | 1794–1796 | Embargo, Jay and Pinckney diplomacy, contested neutral rights | Route access, western expectations, merchant interruption |
 | 1797–1800 | British monetary restriction and Atlantic credit stress | Bills, exchange, defaults, remittance, federal debt finance |
