@@ -1,10 +1,10 @@
-# Louisiana Purchase as export access
+# Louisiana Purchase as sovereignty, finance, and export-corridor risk
 
 ## Core hypothesis
 
-United States control of New Orleans and the lower Mississippi reduced political and logistical uncertainty for western exporters, increasing the reliability and possibly the volume of market access.
+The Louisiana Purchase replaced treaty-dependent navigation and deposit rights with a United States claim of sovereignty over New Orleans and the lower Mississippi. The project tests whether that change reduced political or logistical uncertainty for western exporters; it does not assume improved reliability or trade volume.
 
-This is not established by the acquisition itself. Pinckney’s Treaty had already secured Mississippi navigation and a right of deposit in 1795. Spain suspended the deposit at New Orleans in 1798, and the purchase occurred in 1803. Those separate institutional shocks provide the minimum chronology for testing what changed.
+This is not established by the acquisition itself. Pinckney’s Treaty had already secured Mississippi navigation and a right of deposit in 1795. The Spanish intendant suspended the deposit at New Orleans in October 1802; access was restored in 1803 before the territorial transfer. The cession treaty was signed in 1803, while parts of its transfer, claims, and financing execution continued into 1804. Those separate institutional shocks provide the minimum chronology for testing what changed.
 
 ## Mechanisms
 
@@ -22,9 +22,10 @@ This is not established by the acquisition itself. Pinckney’s Treaty had alrea
 Treat at least four dates separately:
 
 1. **1795:** Pinckney’s Treaty grants navigation and deposit rights.
-2. **1798:** Spanish suspension of the right of deposit creates an access shock.
-3. **1800–1802:** Secret retrocession to France and renewed diplomatic uncertainty.
-4. **1803–1804:** Purchase, ratification, transfer, and establishment of United States administration.
+2. **1800:** Secret retrocession to France changes the expected sovereign but does not immediately transfer administration.
+3. **October 1802–1803:** Suspension and restoration of the right of deposit create a short access crisis.
+4. **1803:** Negotiation, treaties, ratification, financing authorization, and territorial transfer.
+5. **1804 execution tail:** Only records needed to complete claims, stock delivery, intermediary payment, or initial legal administration of the 1803 transaction.
 
 ## Export-access table
 
@@ -60,12 +61,12 @@ Treat at least four dates separately:
 
 ## Identification strategy
 
-Start with an interrupted-event chronology rather than a simple pre/post-1803 comparison. Estimate changes around 1795, 1798, and 1803 separately. Where data permit, compare Mississippi-dependent western commodities and places with Atlantic-oriented exports less dependent on New Orleans.
+Start with an interrupted-event chronology rather than a simple pre/post-1803 comparison. Estimate changes around the 1795 treaty, the October 1802 suspension and 1803 restoration, and the 1803 cession and transfer separately. Where data permit, compare Mississippi-dependent western commodities and places with Atlantic-oriented exports less dependent on New Orleans.
 
 Any causal design must address:
 
 - European war, embargoes, and shipping seizures;
-- the Haitian Revolution and sugar-market shocks;
+- the Haitian Revolution, the collapse of France's Saint-Domingue project, and sugar-market shocks;
 - population growth and settlement;
 - harvest and weather variation;
 - changing commodity composition and prices;
@@ -76,6 +77,6 @@ Any causal design must address:
 
 - The acquisition expanded federal claims over lands occupied and governed by Indigenous nations without their consent.
 - Export access benefited merchants, landowners, and settlers unevenly and intensified pressure for plantation expansion and slavery.
-- New Orleans was already a functioning Spanish and French colonial port; United States acquisition did not create its commercial geography.
+- New Orleans was a functioning Spanish-administered colonial port before the transfer; the prior French retrocession did not create an intervening period of effective French administration. United States acquisition did not create its commercial geography.
 - Higher export value can reflect price changes rather than greater physical volume.
 - Port totals do not reveal who captured the gains.
