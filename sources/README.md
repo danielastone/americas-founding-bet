@@ -1,38 +1,39 @@
 # Historical sources
 
-This directory records archival, official, and scholarly historical sources used by the project.
+This directory records sources for the project’s empirical chain: cargo → merchant finance → customs cash → federal credit → Louisiana financing.
 
 ## Scope
 
-The core explanatory period is 1789–1803. Records from 1804 may enter only when necessary to complete execution of the Louisiana transfer, claims settlement, or financing authorized in 1803. Later records are comparative or validation evidence.
+The core period is 1789–1803. Records from 1804 enter only when necessary to complete the transfer, claims settlement, or financing authorized in 1803. Later records are comparison or validation evidence.
 
-## Metadata verification status
+## Admission to the core
 
-- verified: title, institution, identifier where available, and landing page were checked.
-- needs-item-check: a canonical item identifier or item-level record remains unresolved.
-- needs-series-check: the exact archival series remains unresolved.
-- candidate: potentially relevant but not yet admitted.
-- rejected: examined and excluded, with the reason retained.
+A source is core only when it maps to a claim in `claims/claim-register.csv`, an observation in a canonical table, and a specific link in the empirical spine. Otherwise it remains supporting, deferred, or rejected. A verified catalog record is not evidence for a historical claim.
 
-Metadata verification does not mean that a source has been transcribed, analyzed, or shown to support a claim.
+## Metadata verification
+
+- `verified`: title, institution, identifier where available, and landing page checked
+- `needs-item-check`: canonical item unresolved
+- `needs-series-check`: exact archival series unresolved
+- `candidate`: potentially relevant but not admitted
+- `rejected`: examined and excluded, with reason retained
 
 ## Evidence readiness
 
-- discovery_only: finding aid, portal, collection description, contextual essay, or unresolved item.
-- item_identified: a specific law, treaty, archival item, or comparable primary object is identified.
-- source_identified: a bounded report, dataset, article, or other source is identified but not transformed into project data.
-- transcribed: relevant observations have been extracted and checked.
-- analysis_ready: normalized observations passed provenance and validation rules.
+- `discovery_only`: finding aid, portal, collection description, contextual essay, or unresolved item
+- `item_identified`: specific law, treaty, item, or primary object identified
+- `source_identified`: bounded report, dataset, or study identified
+- `transcribed`: relevant observations extracted and checked
+- `normalized`: original observations mapped under documented rules
+- `validated`: provenance, totals, duplicates, and reconciliations passed
+- `analysis_ready`: evidence meets a registered claim specification
 
-No existing source is presumed transcribed or analysis-ready merely because its metadata is verified.
+## Controlled queue
 
-## Next controlled work
+1. Tariff and customs-law chronology through 1803
+2. Federal fiscal spine
+3. Port coverage matrix and first port pair
+4. One merchant–voyage–cargo–customs–credit reconstruction
+5. Louisiana financing reconciliation
 
-1. Validate the complete source register.
-2. Build the tariff-and-collection-law chronology through 1803.
-3. Identify exact Treasury, customs, First Bank, state fiscal, merchant, voyage, and Louisiana-financing series.
-4. Extract the federal fiscal spine.
-5. Build one end-to-end merchant–voyage–cargo–credit case.
-6. Add supporting evidence only where it enters a defined table or claim.
-
-Do not add new thematic layers before the core tables contain observations.
+Do not add new themes before these outputs contain observations.
