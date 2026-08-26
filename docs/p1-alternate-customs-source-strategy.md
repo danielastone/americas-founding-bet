@@ -57,4 +57,4 @@ Failure on any field keeps the amount in staging.
 
 ## Next action
 
-Wait for NARA's response on RG 217 identifiers while pursuing two microfilm routes: LOC shelf 24,495 for the 1784–1790 tabular extracts and NARA T964 for the 1789–1791 Register daybook. First determine whether LOC microfilm can be borrowed through interlibrary loan or reproduced. Do not start broad transcription of Boxes 1–4 or Hamilton papers; inspect those only when the central tables reveal a specific accounting ambiguity.
+Wait for NARA's response on RG 217 identifiers while pursuing two microfilm routes: LOC shelf 24,495 for the 1784–1790 tabular extracts and NARA T964 for the 1789–1791 Register daybook. Use direct LOC Manuscript Reading Room access to retrieve shelf 24,495; confirm reader-card and advance-retrieval requirements before the visit. Do not start broad transcription of Boxes 1–4 or Hamilton papers; inspect those only when the central tables reveal a specific accounting ambiguity.
