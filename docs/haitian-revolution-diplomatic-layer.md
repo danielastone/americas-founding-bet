@@ -2,7 +2,7 @@
 
 ## Core question
 
-How did the Haitian Revolution alter United States diplomacy, commerce, fiscal policy, refugee governance, and the politics of slavery between 1791 and 1804?
+How did the Haitian Revolution alter United States diplomacy, commerce, fiscal policy, refugee governance, and the politics of slavery between 1791 and the 1803 Louisiana endpoint?
 
 Recognition is only one outcome. The operative diplomatic choices also included aid, debt advances, neutrality, trade permissions and restrictions, naval cooperation, refugee policy, consular reporting, and relations with France, Britain, Spain, and competing authorities in Saint-Domingue.
 
@@ -57,3 +57,5 @@ Build an event chronology for 1791–1795 around emergency financial assistance,
 - Silence about enslaved or Black political actors is an archival feature, not proof of absence.
 - Policy announcement, legal authority, and implementation are separate variables.
 - Later nonrecognition cannot be projected backward as a single unchanged policy from 1791.
+- Haitian independence in 1804 is an endpoint-validation event. Use it only to complete the revolutionary chronology or test interpretations of decisions made by 1803, not to extend the core analytical period.
+- Connect the defeat of France's Saint-Domingue project to the Louisiana decision chronology without reducing Haitian agency to a cause of a United States acquisition.
