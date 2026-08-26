@@ -5,9 +5,10 @@ A source-driven study of how finance and physical commodity trade interacted fro
 ## Scope
 
 **Core period:** 1789–1803  
-**Endpoint:** the Louisiana Purchase and secured access to the Mississippi–New Orleans export corridor  
+**Endpoint:** the Louisiana Purchase as a transfer of claimed sovereignty and a change in the political risk surrounding the Mississippi–New Orleans export corridor  
 **Background only:** Confederation-era institutional and financial constraints  
-**Later evidence:** allowed only to validate, compare, or measure consequences of institutions created by 1803
+**Endpoint-execution tail:** narrowly bounded 1804 records may complete the transfer, claims settlement, or financing authorized in 1803  
+**Later evidence:** otherwise allowed only to validate, compare, or measure consequences of institutions created by 1803
 
 The project does not attempt to narrate nineteenth-century continental expansion, internal improvements, the Civil War, or the full history of American capitalism.
 
@@ -25,7 +26,7 @@ The founding settlement created a reinforcing but unequal system:
 4. Merchant credit financed cargoes, duties, insurance, inventories, and re-export.
 5. Ports converted these financial arrangements into physical commodity flows.
 6. Dependence on foreign markets, European capital, enslaved labor, and a small number of ports created concentrated risks.
-7. The Louisiana Purchase used federal and European financial capacity to acquire strategic access for western exports.
+7. The Louisiana Purchase used federal obligations and European intermediaries to replace treaty-dependent access with a United States sovereignty claim over a strategic export corridor, without resolving boundaries, Indigenous sovereignty, or the distribution of gains.
 
 This is a hypothesis to test, not a conclusion to assume.
 
@@ -45,7 +46,7 @@ This is a hypothesis to test, not a conclusion to assume.
 
 - Imports, domestic exports, and foreign re-exports
 - Vessel voyages, ports, cargo quantities, values, and destinations
-- Sugar, molasses, coffee, flour and grain, tobacco, cotton, and other evidence-supported commodity groups
+- Sugar, molasses, coffee, flour and grain, tobacco, cotton, rice, and evidence-supported northern or maritime controls such as fish, lumber, potash, naval stores, and whale products
 - Port handling, navigation infrastructure, customs enforcement, and storage
 - Atlantic, Caribbean, European, coastal, and Mississippi market access
 - Disruptions caused by war, revolution, seizure, embargo, and credit crisis
@@ -64,11 +65,11 @@ The same transaction should be linked across levels rather than described four t
 ## Core empirical modules
 
 1. **Federal fiscal system, 1789–1803** — reconstruct customs revenue, debt service, domestic and foreign financing, First Bank relationships, and Louisiana Purchase obligations.
-2. **Port-city commodity system** — compare New York, Philadelphia, Baltimore, Charleston, and, at the endpoint, New Orleans using consistent customs, voyage, commodity, and financial measures.
+2. **Port-city commodity system** — compare Boston, New York, Philadelphia, Baltimore, and Charleston, with New Orleans treated separately as a foreign colonial port before the 1803 endpoint using consistent customs, voyage, commodity, and financial measures.
 3. **Merchant transaction system** — link merchant ledgers and correspondence to voyages, cargo lines, insurance, customs bonds, bank credit, re-export, and settlement outcomes.
 4. **Commodity corridors** — separate domestic exports from foreign re-exports and trace selected commodities through origin, port, destination, price, and financing chain.
 5. **Shock transmission** — use the Haitian Revolution, Pinckney’s Treaty, European war, seizures, the 1792 panic, London credit crises, and Mississippi access disputes as tests of resilience.
-6. **Louisiana Purchase endpoint** — analyze the purchase as a joint fiscal, financial, diplomatic, and commodity-access event. Do not infer realized western growth from the treaty alone.
+6. **Louisiana Purchase endpoint** — analyze the purchase as a joint fiscal, financial, diplomatic, and sovereignty-risk event. Include only the 1804 execution records needed to complete the 1803 transaction; do not infer realized western growth from the treaty or transfer alone.
 
 ## Required distinctions
 
@@ -98,7 +99,8 @@ BIBFRAME remains the bibliographic spine. Archival hierarchy, quantitative obser
 5. Merchant–voyage–cargo–credit linked sample
 6. Commodity-corridor case studies
 7. Louisiana Purchase financing and export-access synthesis
-8. A bounded article or post series presenting the findings
+8. A bounded consumer-welfare and distributional case comparison
+9. A bounded article or post series presenting the findings
 
 ## Proposed article sequence
 
@@ -137,7 +139,9 @@ Directories should exist only when they contain actual work.
 - Do not infer merchant profitability from trade volume.
 - Do not use post-1803 records as direct evidence for pre-1804 behavior without a stated continuity argument.
 - Report missing records, selection, survivorship, and entity-matching uncertainty.
-- Stop adding thematic layers that cannot connect to the finance–commodity mechanism and at least one analytical level.
+- Treat consumer welfare as an outcome layer, global markets as controls, and infrastructure as supporting mechanisms rather than coequal projects.
+- Stop adding thematic layers until the canonical tables contain actual observations.
+- Stop adding any layer that cannot connect to the finance–commodity mechanism and at least one analytical level.
 
 ## Employment disclaimer
 
