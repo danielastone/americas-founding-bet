@@ -13,6 +13,10 @@ The highest-value target is **Record Group 217, Office of the Register, Receipts
 
 If the 1789–1803 run survives with usable classifications, it is the best candidate for constructing the federal denominator and reconciling the American State Papers tables. It outranks port-level transcription.
 
+### T964 access target
+
+NARA microfilm publication T964 is a single roll titled *Day Book of the Register’s Office of the Treasury, 1789–1791*. It is the fastest potential route into the opening transaction chronology. It is not confirmed online, and a public catalog search does not establish that LOC holds a service copy. Because T-publications may reproduce only a selected segment of a series and may lack the descriptive pamphlet supplied with a full M-publication, the reel must be tied back to Inventory 14 and the original RG 217 series before analytical use. See `docs/nara-t964-source-assessment.md`.
+
 ## Priority order
 
 1. **RG 217 central receipts and expenditures.** Establish exact series identifiers, physical location, volumes, period conventions and reproduction feasibility.
