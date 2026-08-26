@@ -1,4 +1,4 @@
-# European-market financing of federal debt
+# European-market financing of federal debt, 1790–1803
 
 ## Core question
 
@@ -85,7 +85,7 @@ Names and firm structures must be authority-controlled. Do not merge bankers, pa
 
 ## First controlled reconstruction
 
-Reconstruct every Amsterdam and Antwerp contract from 1790 through 1794, including the 1793 reloan. Reconcile contract principal to receipts, charges, Treasury transfers, direct European applications, and year-end balances. Then connect changes in terms to United States payment performance and European shocks.
+Phase 1 reconstructs every Amsterdam and Antwerp contract from 1790 through 1794, including the 1793 reloan. Phase 2 reconstructs the 1803 Louisiana financing through Baring Brothers and Hope & Co., using only the 1804 records necessary to complete execution. For each phase, reconcile authority, contract principal, securities delivered, placement or purchase, discounts, charges, intermediary payments, Treasury cash flows, direct European applications, and remaining obligations.
 
 ## Hypotheses
 
@@ -94,6 +94,7 @@ Reconstruct every Amsterdam and Antwerp contract from 1790 through 1794, includi
 3. Amsterdam intermediation linked customs-backed federal credit to a deeper investor base.
 4. War and political disruption in Europe constrained access independently of United States fiscal performance.
 5. Foreign proceeds applied directly in Europe provided liquidity but make domestic cash-receipt measures understate borrowing activity.
+6. The Louisiana transaction may demonstrate continuity in European market access, but its structure differed from the 1790–1794 Dutch loans and must not be pooled with them without instrument-level controls.
 
 ## Identification limits
 
