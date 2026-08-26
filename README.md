@@ -58,6 +58,8 @@ No new thematic layer enters the core until these exist.
 - Separate debt face value, market value, cash proceeds, interest, and redemption.
 - Treat statutes and institutional designs as authority, not proof of implementation.
 - Apply the audit evidence hierarchy before advancing a claim.
+- Evaluate decisions using the information, alternatives, constraints, and risks visible at the time.
+- Separate ex-ante expectations from realized outcomes and later retrospective interpretation.
 - Do not infer production origin from port exports or profit from trade volume.
 - Record contradictory and missing evidence.
 - Require an explicit counterfactual before making a causal claim.
