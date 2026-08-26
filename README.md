@@ -62,6 +62,8 @@ No new thematic layer enters the core until these exist.
 - Separate ex-ante expectations from realized outcomes and later retrospective interpretation.
 - Do not infer production origin from port exports or profit from trade volume.
 - Record contradictory and missing evidence.
+- Prioritize the cheapest test capable of defeating an essential thesis component.
+- Reframe or reject the thesis when a precommitted stopping rule is met.
 - Require an explicit counterfactual before making a causal claim.
 - Keep New Orleans outside a mechanically pooled U.S.-port panel before transfer.
 - Use BIBFRAME for bibliographic description only; keep archival hierarchy, observations, entities, and claims in their own tables.
@@ -70,6 +72,7 @@ No new thematic layer enters the core until these exist.
 
 - [Top-down framework](docs/top-down-framework-1789-1803.md)
 - [Minimum viable project plan](docs/minimum-viable-project-plan.md)
+- [Falsification priorities](docs/falsification-priorities.md)
 - [Audit evidence hierarchy](docs/audit-evidence-hierarchy.md)
 - [Tariff and customs-law chronology](docs/tariff-customs-law-chronology-1789-1803.md)
 - [Canonical data dictionary](docs/canonical-data-dictionary.md)
