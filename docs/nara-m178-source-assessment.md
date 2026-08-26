@@ -54,6 +54,20 @@ Do not acquire all 39 rolls. First obtain the pamphlet's roll-date or roll-conte
 
 M175 contains letters sent by the Secretary of the Treasury to customs collectors beginning in 1789. It may preserve a more systematic outgoing series, but sent instructions still do not prove collector compliance or cash transfer. Compare M178 and M175 only to establish provenance and missing correspondence, not to double-count documents.
 
+## Roll-table result
+
+The 1957 pamphlet arranges rolls primarily by port or district, separating letters **to** collectors from letters **from** collectors. The early-period selection is recorded in `sources/nara-m178-early-roll-selection.csv`.
+
+The coverage is structurally incomplete for the thesis:
+
+- Boston is the strongest two-way early case: rolls 6–7 contain letters to the collector from 1789–1808, and roll 11 contains letters from the collector from 1790–1812.
+- New York has no early coverage: roll 17 begins in 1828–1829.
+- Charleston has no early coverage: roll 32 begins in 1830–1831.
+- Philadelphia has outgoing letters beginning in 1790, but incoming letters begin only in 1803.
+- Several smaller ports have two-way coverage, including Alexandria, New Bern, Portsmouth, and Providence.
+
+This distribution confirms that M178 cannot be a representative national sample. Its best use is a predeclared case study of Boston and selected smaller ports, plus evidence of Treasury instructions to major ports where incoming letters are missing.
+
 ## Immediate next step
 
-Resolve the early-period roll numbers from the M178 descriptive pamphlet. The pamphlet is searchable through the Allen County Public Library Genealogy Center, but its roll table is image-based and was not exposed as usable text in the public web interface.
+Do not acquire all 39 rolls. For the 1789–1790 missing-return problem, start with Boston rolls 6 and 11. Roll 6 covers Treasury letters to Boston for 1789–1796; roll 11 covers Boston letters to Treasury for 1790–1812. Add roll 7 only when extending beyond 1796. Charleston’s missing 1790 quarter cannot be resolved through M178.
