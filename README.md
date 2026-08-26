@@ -67,6 +67,7 @@ No new thematic layer enters the core until these exist.
 
 - [Top-down framework](docs/top-down-framework-1789-1803.md)
 - [Minimum viable project plan](docs/minimum-viable-project-plan.md)
+- [Tariff and customs-law chronology](docs/tariff-customs-law-chronology-1789-1803.md)
 - [Canonical data dictionary](docs/canonical-data-dictionary.md)
 - [Claim register](claims/claim-register.csv)
 - [Historical source register](sources/historical-source-register.csv)
