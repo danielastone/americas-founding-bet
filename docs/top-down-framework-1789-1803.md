@@ -16,7 +16,7 @@ The project cannot credibly estimate one universal “effect of the founding.”
 
 > Changes in federal fiscal capacity and commercial intermediation between 1789 and 1803, measured through revenue realization, financing costs, payment and credit networks, and the volume, composition, routing, and disruption of physical commodity trade.
 
-The endpoint claim is not that the Louisiana Purchase caused immediate growth. It is that the United States assembled the financial and diplomatic capacity to purchase an option on future western market access.
+The endpoint claim is not that the Louisiana Purchase caused immediate growth or created Mississippi commerce. It is that the United States used public obligations, diplomacy, and European intermediaries to replace treaty-dependent access with a claim of sovereign control over a strategic corridor. Whether this reduced actual route costs or uncertainty remains an empirical question.
 
 ## Causal structure
 
@@ -123,15 +123,16 @@ Commodity inclusion depends on consistent quantities, units, origin, destination
 
 ### Core ports
 
+- Boston
 - New York
 - Philadelphia
 - Baltimore
 - Charleston
-- New Orleans at the 1803 endpoint
+- New Orleans as a separate foreign-colonial and endpoint case, not a continuously comparable United States port
 
 ### Supporting geographies
 
-- State hinterlands feeding the core ports
+- Massachusetts, New York, Pennsylvania, Maryland, Virginia, and South Carolina hinterlands feeding the Atlantic ports
 - Saint-Domingue/Haiti and selected Caribbean ports
 - London and Amsterdam financial markets
 - Mississippi and Ohio valley export routes
@@ -148,7 +149,8 @@ A balanced five-port panel may be impossible because surviving series differ. Th
 | 1792–1796 | Implementation, panic, European war, Haiti, Pinckney |
 | 1797–1800 | Credit stress, enforcement, re-export, political transition |
 | 1801–1803 | Mississippi access crisis and Louisiana Purchase finance |
-| After 1803 | Validation or consequence only; excluded from main estimates |
+| 1804 execution tail | Only records necessary to complete the 1803 transfer, claims settlement, or financing; not an outcome window |
+| Later than the execution tail | Validation or consequence only; excluded from main estimates |
 
 ## Claim hierarchy
 
@@ -173,7 +175,7 @@ The project is publishable before every layer is complete if it produces:
 1. A reconciled federal fiscal series for customs, debt service, Bank flows, foreign loans, and Purchase obligations.
 2. A documented port-level trade panel separating imports, domestic exports, and re-exports.
 3. A linked merchant sample showing cargo, voyage, customs obligation, and finance.
-4. Two commodity corridors: one Caribbean re-export chain and one western/domestic export chain.
+4. Two commodity corridors: one Caribbean re-export chain and one western/domestic export chain, plus a materiality check for omitted northern maritime commodities.
 5. A Louisiana Purchase synthesis that distinguishes financing, legal access, and realized trade.
 
 Everything else is optional until those five outputs exist.
@@ -193,7 +195,7 @@ Everything else is optional until those five outputs exist.
 
 Do not add a new layer when:
 
-- It mainly begins after 1803.
+- It mainly begins after the narrowly defined 1804 endpoint-execution tail.
 - It cannot be linked to finance or a physical commodity flow.
 - It lacks a defined observation and source path.
 - It duplicates an existing mechanism under a new theme.
