@@ -20,6 +20,88 @@ Every source–claim link is evaluated on five dimensions:
 
 A higher-ranked source that does not address the assertion is not better evidence than a lower-ranked source that does.
 
+
+## Hindsight-bias and ex-ante risk protocol
+
+Historical success does not establish that a decision was prudent when made, and an adverse outcome does not establish that the decision was unreasonable. Every decision claim must reconstruct the information set, feasible alternatives, constraints, and perceived risks at the decision date before examining realized outcomes.
+
+### Information cutoff
+
+Each decision or risk assessment must specify:
+
+- `decision_date` or bounded decision window;
+- `information_cutoff`;
+- actor or institution whose perspective is being reconstructed;
+- evidence demonstrably available to that actor by the cutoff;
+- information that existed but is not shown to have been available;
+- later evidence admitted only as outcome, validation, or consequence.
+
+Sources created after the cutoff cannot be used to improve the actor’s forecast. A later retrospective statement may document memory or interpretation, but it does not automatically belong to the ex-ante information set.
+
+### Required separation
+
+| Element | Meaning |
+|---|---|
+| Ex-ante signal | Information available before the decision |
+| Belief or expectation | What an identified actor said, priced, budgeted, or acted as though they expected |
+| Exposure | Amount, route, obligation, actor, or institution subject to loss |
+| Risk | Uncertain event linked to an exposure and transmission mechanism |
+| Mitigation | Diversification, security, insurance, reserve, treaty, enforcement, or contractual response |
+| Realized event | What actually occurred |
+| Realized effect | Measured consequence after the event |
+| Retrospective interpretation | Later explanation, memory, or historical synthesis |
+
+Possibility, perceived probability, exposure, expected loss, realized loss, and retrospective importance are not interchangeable.
+
+### Risk taxonomy
+
+Assess only risks connected to the empirical spine:
+
+| Risk class | Examples for this project |
+|---|---|
+| Fiscal | Revenue shortfall, expenditure pressure, debt-service insufficiency |
+| Liquidity and refinancing | Collection delay, bond maturity mismatch, inability to place or roll obligations |
+| Market | Commodity price, security price, interest-rate, and exchange-rate movement |
+| Credit and counterparty | Merchant, surety, bank, foreign intermediary, or sovereign nonperformance |
+| Operational | Customs administration, remittance, documentation, enforcement, fraud, and port disruption |
+| Legal and sovereignty | Treaty interpretation, deposit rights, boundary dispute, authority, title, and effective control |
+| Geopolitical | War, seizure, embargo, revolution, foreign exclusion, and regime change |
+| Concentration | Dependence on a port, commodity, revenue source, merchant network, or foreign market |
+| Information and model | Incomplete returns, delayed news, unreliable estimates, and mistaken causal assumptions |
+| Distributional | Risk transferred to regions, merchants, consumers, enslaved people, or Indigenous nations |
+
+### Risk-assessment record
+
+Each material decision or mechanism must record:
+
+- objective and success criterion stated without reference to later outcomes;
+- feasible alternatives available at the time, including delay or no action;
+- constraints and commitments already in place;
+- contemporaneous signals supporting and contradicting the decision;
+- exposure, risk event, transmission channel, and potential consequence;
+- mitigation and residual risk;
+- uncertainty range and basis;
+- realized outcome in a separate field;
+- difference between expected and realized conditions;
+- evidence that would show the decision was reckless, robust, lucky, unlucky, or indeterminate.
+
+Do not assign numerical probabilities unless contemporaneous prices, frequencies, forecasts, or a transparent bounding method support them. Qualitative labels must define their evidentiary basis.
+
+### Counterfactual discipline
+
+The comparison must be a feasible option available to the historical actor, not a modern analyst’s preferred policy. For the Louisiana endpoint, comparisons may include continued treaty dependence, renewed negotiation, military escalation, delayed acquisition, or alternative financing only when contemporaneous evidence shows that actors considered or could practicably execute them.
+
+Later population growth, territorial expansion, agricultural output, or national power cannot be used to justify the 1803 decision. Those are realized consequences shaped by later events and policies. The endpoint assessment instead asks whether the financing structure, access problem, alternatives, and downside exposures were acceptable given information available in 1802–1803.
+
+### Bias controls
+
+- **Outcome bias:** evaluate process and information separately from result.
+- **Survivorship bias:** search for failed merchants, defaulted bonds, lost cargoes, excluded routes, and abandoned alternatives.
+- **Selection bias:** document why surviving reports, claims, and correspondence entered the record.
+- **Teleology:** do not treat later continental expansion as the inevitable purpose of earlier fiscal institutions.
+- **Presentism:** use contemporary legal, commercial, accounting, and political categories before applying modern analytical labels.
+- **Narrative compression:** preserve decision sequence, information arrival, and reversibility rather than collapsing events into an inevitable chain.
+
 ## Default hierarchy
 
 | Level | Evidence class | Examples | Permitted use | Principal limitation |
@@ -202,6 +284,9 @@ Every material claim–source relationship must record:
 - supporting, contradicting, or qualifying direction
 - observed, reported, reconstructed, inferred, or imputed status
 - relevant period and population
+- information cutoff and actor perspective
+- ex-ante, realized-outcome, or retrospective-evidence classification
+- exposure, risk, mitigation, feasible alternatives, and residual uncertainty where applicable
 - procedure performed
 - result and unexplained difference
 - independence group
@@ -221,7 +306,10 @@ A claim fails the evidence audit when:
 - missing archival coverage is interpreted as zero;
 - a vivid merchant case is generalized without a sampling argument;
 - post-1803 evidence is used directly for pre-1804 behavior without a continuity test;
-- contradictory evidence is omitted from the claim record.
+- contradictory evidence is omitted from the claim record;
+- later outcomes are used to improve an ex-ante forecast;
+- historical success is treated as proof that risk was low or the decision was prudent;
+- a modern counterfactual is substituted for alternatives actually feasible at the time.
 
 ## Governing principle
 
