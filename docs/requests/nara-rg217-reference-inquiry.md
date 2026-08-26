@@ -1,6 +1,6 @@
 # NARA Archives I reference inquiry: RG 217 early federal accounts
 
-**Status:** Prepared; not sent  
+**Status:** Sent 2026-08-26  
 **Recipient:** archives1reference@nara.gov  
 **Subject:** RG 217 series identifiers and access for Treasury receipts and expenditures, 1789–1803
 
@@ -53,3 +53,9 @@ Before sending:
 - update series identifiers before ordering copies.
 
 NARA advises allowing approximately 10–12 business days for Archives I reference responses and asks researchers not to send duplicate requests during that period.
+
+## Dispatch status
+
+- Sent to the official Archives I reference address on 2026-08-26.
+- Expected response window based on NARA guidance: approximately 2026-09-10 through 2026-09-14.
+- No purchase, copying order, or research visit was authorized.
