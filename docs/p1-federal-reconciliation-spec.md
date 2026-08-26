@@ -87,13 +87,47 @@ D_c = rac{	ext{cash interest + cash principal service}}{	ext{customs cash recei
 
 These ratios answer different questions and must not be collapsed into one “customs dependence” statistic.
 
+## Precommitted thresholds
+
+These rules were fixed before the first complete annual panel was transcribed.
+
+### Coverage floor
+
+Do not classify P1 unless the admissible evidence contains at least nine annual-equivalent periods, including at least two periods from each of these windows:
+
+- opening: 1789–1792;
+- stress and expansion: 1793–1797;
+- mature system and endpoint: 1798–1803.
+
+A partial period counts only in period-level results and does not count as a full annual equivalent. Failure to meet the floor produces `insufficient_coverage`, not `mixed`.
+
+### Dominance
+
+“Dominant” means an absolute majority, not merely the largest named category.
+
+A period satisfies non-loan dominance when `C_s > 0.50`. It satisfies usable-inflow dominance when `C_u > 0.50`. Exactly 0.50 does not pass.
+
+### Reconciliation tolerance
+
+- Arithmetic within one printed statement must reconcile within the larger of $1.00 or 0.01 percent of its reported total.
+- Independently reported, definition-compatible totals are primary-test compatible when their absolute difference is no greater than 0.50 percent of the larger total.
+- A difference above 0.50 percent and no greater than 2.00 percent is provisional and enters sensitivity analysis only.
+- A difference above 2.00 percent is excluded until explained and corrected or explicitly reclassified as definition-incompatible.
+
+A documented rounding convention may explain a difference but does not authorize silent adjustment. The original and reconciled values must both remain visible.
+
 ## Classification rule
 
-- **Pass:** customs is dominant under both the non-loan and usable-inflow denominators for most comparable periods, reconciles within the declared tolerance, and is not defeated by timing.
-- **Mixed:** dominance depends on years, accounting state, or the exclusion of material loan/asset inflows.
-- **Fail:** customs is not dominant after consistent treatment, or the figures cannot be reconciled well enough to support the claim.
+Apply these rules only after the coverage floor is met:
 
-The numeric dominance threshold and reconciliation tolerance must be set before the first complete annual panel is inspected. Until then, no pass/mixed/fail label is allowed.
+- **Pass:** pooled `C_s > 0.50`, pooled `C_u > 0.50`, and at least two-thirds of admissible periods independently exceed 0.50 on both ratios.
+- **Mixed:** the non-loan test passes but the usable-inflow test fails; pooled and period-level results disagree; or results change when provisional observations are excluded.
+- **Fail:** pooled `C_s <= 0.50`; or fewer than one-half of admissible periods have `C_s > 0.50`.
+- **Indeterminate:** neither pass, mixed, nor fail conditions are met after the coverage floor, or accounting-state ambiguity remains material.
+
+`D_c` measures debt-service burden relative to customs cash; it does not determine customs dominance by itself. Timing failure is evaluated separately under P3 and may narrow “dependable” even if P1 passes.
+
+The stricter usable-inflow condition prevents loan proceeds and asset sales from disappearing from the fiscal-capacity claim. The non-loan condition prevents those financing flows from being mislabeled as revenue.
 
 ## Admission rules
 
