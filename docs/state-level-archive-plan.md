@@ -17,11 +17,13 @@ The workable design has three layers:
 | New York | Northern commercial and banking state | New York City |
 | Pennsylvania | Federal financial center and grain/flour hinterland | Philadelphia |
 | Maryland | Tobacco-to-flour transition and port competition | Baltimore |
+| Massachusetts | Northern maritime commerce and non-Mississippi comparison | Boston |
 | South Carolina | Rice, indigo, cotton, slavery, and Atlantic finance | Charleston |
+| Virginia | Tobacco, state debt, western claims, slavery, and alternative river corridors | Chesapeake, Potomac, James, and western routes |
 | Kentucky | Western production and Mississippi-access demand | Ohio–Mississippi corridor |
 | Tennessee | Western state formation and taxable-property comparison | Cumberland–Mississippi corridor |
 
-Virginia is a likely comparison because of tobacco, debt, and western claims, but adding it now would widen the project before the six-state archive can be assessed.
+Massachusetts and Virginia are required comparison cases, but they enter after the Pennsylvania pilot. Massachusetts tests whether conclusions depend on the Mississippi-facing commodity story; Virginia is necessary for tobacco, debt, western claims, slavery, and Kentucky's separation. Their inclusion does not authorize a simultaneous eight-state extraction.
 
 ## Cross-state archival spine
 
@@ -192,6 +194,8 @@ A charter proves authorization. It does not prove capitalization, lending volume
 | State | Debt/federal settlement | State treasury/tax | Bank records | Commodity records | Current status |
 |---|---|---|---|---|---|
 | Pennsylvania | Strong lead | Strong lead | Needs series search | Flour/grain inspection search needed | Begin extraction |
+| Massachusetts | NARA state loan office | Needs series search | Needs series search | Fish, whale products, lumber and potash controls needed | Bounded query |
+| Virginia | NARA state loan office | Needs series search | Needs series search | Tobacco and western-route records needed | Bounded query |
 | Maryland | NARA plus state papers | Moderate lead | Needs series search | Tobacco/flour leads | Series inventory |
 | South Carolina | NARA plus legislative records | Early tax duplicates found | Needs series search | Rice/cotton inspection search needed | Series inventory |
 | Tennessee | Limited federal comparison | County tax lists found | Low priority | River/produce records needed | Targeted query |
@@ -216,7 +220,7 @@ This pilot will reveal whether the state layer is analytically viable. Starting 
 1. State archive series register with exact identifiers.
 2. State fiscal accounting crosswalk.
 3. Pennsylvania pilot dataset.
-4. Six-state archival coverage and missingness matrix.
+4. Eight-state archival coverage and missingness matrix.
 5. Commodity inspection and production-proxy register.
 6. Bank charter-versus-operation register.
 7. Decision on whether a multi-state panel is defensible or whether state evidence should remain comparative case studies.
