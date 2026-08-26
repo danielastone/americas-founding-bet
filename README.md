@@ -14,7 +14,7 @@ The project does not attempt to narrate nineteenth-century continental expansion
 
 ## Core question
 
-Did the United States build enough fiscal and commercial capacity between 1789 and 1803 to finance the federal state, move physical goods through Atlantic and interior markets, and purchase strategic access to the Mississippi system?
+Did the United States build enough fiscal and commercial capacity between 1789 and 1803 to finance the federal state, move physical goods through Atlantic and interior markets, and replace treaty-dependent Mississippi access with a financed claim of sovereign control?
 
 ## Working thesis
 
