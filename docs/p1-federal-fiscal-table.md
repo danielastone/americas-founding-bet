@@ -77,6 +77,8 @@ The first statement reconciliation produced two material corrections:
 
 The 1803 customs observation remains a lower bound because the narrative says receipts “exceeded” $10.6 million. The $5.86 million Treasury balance also remains rounded. Neither may be promoted to an exact observation without its supporting statement.
 
+The 1802 scan confirms that $12.28 million was received into Treasury from merchandise and tonnage duties during the year ending September 30, 1802. It remains rounded to the nearest stated ten thousand dollars. The same page confirms that the $326,052.08 public-land total is not Treasury cash: $17,162.50 was paid into Treasury in debt certificates, $179,575.52 in specie, and the residual remained with land-office receivers. Only the specie component belongs in an operating-cash denominator.
+
 ## Validation sequence
 
 1. Finish image-checking every seeded amount and replace rounded amounts with exact statement figures where available.
