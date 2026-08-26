@@ -1,0 +1,2 @@
+request_id,repository,record_group,series_scope,prepared_date,sent_date,recipient,status,response_due,request_file,response_file,notes
+AFB-REQ-0001,NARA,RG 217,"Office of Register Receipts and Expenditures Division daybooks abstracts journals blotters ledgers 1789-1803",2026-08-26,,archives1reference@nara.gov,prepared_not_sent,,docs/requests/nara-rg217-reference-inquiry.md,,"Requires explicit authorization before external dispatch; NARA states typical response time is 10-12 business days"
