@@ -2,62 +2,59 @@
 
 ## Objective
 
-Demonstrate, with linked archival observations and reconciled historical accounts, how commodity transactions generated customs cash, how that cash supported federal credit, and how public credit was used in the Louisiana Purchase financing.
+Attempt to falsify the proposition that commodity-generated customs cash became dependable federal credit and materially enabled the Louisiana Purchase financing. The project expands only if the cheapest decisive tests survive.
 
-## Fixed analytical sequence
+## Falsification sequence
 
-| Phase | Required output | Completion test |
+| Priority | Test | Thesis consequence |
 |---|---|---|
-| 1. Definitions | Locked accounting, trade, entity, date, and geography rules | Every core field maps to the canonical dictionary |
-| 2. Federal fiscal spine | Annual and, where possible, quarterly federal fiscal table for 1789–1803 | Customs cash, debt service, Bank/Treasury flows, and purchase obligations reconcile or have documented residuals |
-| 3. Customs law | Tariff and collection chronology through 1803 | Each rate, credit term, bond, drawback, and enforcement change has a statutory citation and implementation field |
-| 4. Port sample | Coverage matrix and one comparable Atlantic port pair | Same measures, periods, and trade classifications are available or differences are explicit |
-| 5. Merchant chain | One linked cargo–voyage–customs–credit case | Sources identify parties, commodity, voyage, obligation, instrument, dates, and settlement outcome |
-| 6. Purchase endpoint | Louisiana financing reconciliation | Authorization, claims, securities, net proceeds, intermediaries, fees, exchange, and execution dates are separated |
-| 7. Claim testing | Updated claim register and evidence matrix | Every published claim has supporting, contradicting, and missing evidence recorded |
+| P1 | Reconcile customs cash against all other usable federal receipts and debt service | Failure ends the governing thesis |
+| P2 | Reconcile Louisiana financing and test whether it depended on pre-1803 fiscal capacity | Failure removes Louisiana as the endpoint proof |
+| P3 | Test collection, remittance, bond-maturity, and debt-service timing | Failure replaces “dependable” with a fragile or bridged liquidity interpretation |
+| P4 | Test federal security performance against European market and war controls | Failure removes the marketability mechanism |
+| P5 | Reconstruct one successful and one adverse cargo–customs–credit transaction | Failure removes the transaction-level mechanism |
+| P6 | Test generalization across the first port pair and commodity basket | Failure confines results to bounded cases |
 
-## Initial port strategy
+The test specifications and stopping rules are in `docs/falsification-priorities.md`.
 
-Do not begin with a five-port balanced panel. Select one pair after scoring archival coverage for customs cash, trade classification, commodity detail, voyage linkage, merchant records, prices, and banking evidence. Boston, New York, Philadelphia, Baltimore, and Charleston remain candidates. New Orleans is a separate foreign-colonial and endpoint case before transfer.
+## Required outputs
 
-## Initial commodity strategy
+| Output | Completion test |
+|---|---|
+| Federal falsification table | Customs cash, other receipts, loans, debt service, timing, and residuals reconcile on consistent bases |
+| Louisiana financing reconciliation | Authorization, claims, securities, net proceeds, intermediaries, fees, exchange, existing obligations, and alternatives are separated |
+| Liquidity schedule | Collections, bonds, remittances, balances, borrowing, and debt due dates are aligned at the highest defensible frequency |
+| Security-market comparison | Prices or yields, transfer costs, comparable securities, fiscal events, and common shocks are dated |
+| Paired merchant cases | One successful and one adverse case follow precommitted selection and linkage rules |
+| Port/commodity robustness check | Expansion tests concentration, classification, and missingness rather than merely adding examples |
 
-Use the smallest basket that can test both sides of the thesis:
+## Legal-data dependency
 
-- one Caribbean import/re-export chain, preferably sugar or coffee;
-- one domestic export chain, preferably flour or tobacco;
-- one materiality check for an omitted northern maritime commodity.
-
-Cotton, rice, molasses, pork, corn, lumber, potash, fish, naval stores, and whale products remain candidates, not automatic core series.
+The customs-law chronology remains a control table. Section-level transcription should proceed only for provisions needed to calculate the selected federal or transaction tests. Correct known title and effective-date errors before using it as a tariff calculator.
 
 ## Evidence gates
 
-A thematic document becomes core evidence only when it:
+A source becomes core only when it:
 
-1. identifies a claim in `claims/claim-register.csv`;
-2. specifies an observation and canonical table;
-3. names an item or bounded official series;
+1. tests a registered falsification condition;
+2. supplies an observation to a canonical table;
+3. identifies an item or bounded official series;
 4. preserves original units and accounting states;
-5. states what evidence would contradict the claim.
-
-Finding aids and collection descriptions remain discovery evidence until item- or series-level records are identified and transcribed.
+5. records supporting, contradicting, and qualifying evidence;
+6. passes the applicable audit and ex-ante risk controls.
 
 ## Deferred work
 
-Until phases 2–6 contain observations, defer:
+Until P1 and P2 are resolved, defer:
 
-- comprehensive global commodity-price extraction;
+- broad port, state, and commodity extraction;
+- comprehensive global commodity-price work;
 - broad consumer-welfare estimation;
-- expansion to additional states and ports;
-- standalone cutter, lighthouse, diplomatic, or infrastructure studies;
+- standalone infrastructure or diplomatic studies;
 - full BIBFRAME graph implementation;
 - large causal-econometric models;
-- a fixed Substack publication sequence.
+- a fixed publication sequence.
 
-## Immediate next tasks
+## Immediate next task
 
-1. Build the tariff-and-customs-law chronology.
-2. Specify and populate the federal fiscal table.
-3. Score port archival coverage and select the first pair.
-4. Identify one end-to-end merchant transaction.
-5. Reconcile the Louisiana obligations and European intermediation.
+Build only the minimum federal table needed for P1. Begin with annual observations, but preserve dates and accounting states so quarterly or monthly liquidity testing can follow. Do not start with merchant archives.
