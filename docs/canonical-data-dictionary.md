@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Layer-specific schemas are proposals. This file controls shared identifiers, provenance, measurement states, and transformations.
+Layer-specific schemas are proposals. This file controls shared identifiers, provenance, measurement states, and transformations. The procedures and claim gates in `docs/audit-evidence-hierarchy.md` govern advancement between evidence states.
 
 ## Evidence states
 
@@ -11,10 +11,10 @@ Layer-specific schemas are proposals. This file controls shared identifiers, pro
 | discovery_only | Guide, portal, collection, contextual source, or unresolved item |
 | item_identified | Specific primary item, law, treaty, or archival object |
 | source_identified | Bounded report, dataset, or secondary study |
-| transcribed | Relevant observations extracted and checked |
+| transcribed | Relevant observations extracted from the source image and checked |
 | normalized | Originals mapped to controlled entities, units, dates, or currencies |
-| validated | Provenance, totals, duplicates, and applicable reconciliations passed |
-| analysis_ready | Observation meets a specified claim or model |
+| validated | Provenance, totals, duplicates, cutoff, classification, and applicable reconciliations passed |
+| analysis_ready | Observation meets a specified claim and its accounting, mechanism, or causal gate |
 
 Metadata verification is separate from evidence state.
 
@@ -47,3 +47,5 @@ New Orleans is a foreign-colonial port before transfer and an endpoint case afte
 ## Claim readiness
 
 A testable claim specifies claim_id, unit, outcome, mechanism, comparison, evidence requirements, supporting and contradicting observations, missingness, selection, robustness tests, and publication status. A narrative layer is not evidence-ready merely because its mechanism is plausible.
+
+Evidence ranking is assertion-specific. Statutes prove legal authority, not implementation. Published aggregates do not prove transactions. Reproductions of the same underlying report are one evidentiary origin, not independent corroboration.
