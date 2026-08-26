@@ -47,7 +47,9 @@ The guide pages establish that a series exists; they are **source-discovery evid
 
 ## Immediate archival request
 
-The first NARA inquiry should be narrow:
+The first inquiry is drafted at `docs/requests/nara-rg217-reference-inquiry.md` and logged as prepared but not sent in `sources/archival-request-log.csv`.
+
+The request remains narrow:
 
 > Please provide the Inventory 14 entry or current series-level catalog identifiers, physical location, volume or box list, and reproduction/digitization options for the Office of the Register of the Treasury, Receipts and Expenditures Division: daybooks beginning in 1789 and abstracts of receipts and expenditures of the United States for 1789–1803. We are specifically trying to determine annual or quarterly accounting periods, revenue-source classifications, and whether loans, opening balances, and asset proceeds are separately identified.
 
@@ -58,3 +60,9 @@ Do not request all early Treasury material. That would produce an expensive, unf
 - `sources/nara-federal-record-groups.csv`: source-routing map;
 - `sources/p1-asp-finance-1789-1800-census.csv`: published-document census to reconcile against NARA records;
 - `data/federal_fiscal_p1.csv`: observation table that must retain source and accounting-state distinctions.
+
+## Online-resolution result
+
+The National Archives Catalog search did not expose usable series-level identifiers for the early daybooks or abstracts. NARA's Record Group Explorer reports that approximately 0.39% of RG 217 textual pages are scanned online. Inventory 14 is cited by NARA but is not provided as a searchable official online finding aid. Reference-staff resolution is therefore the efficient next step.
+
+Archives I is the appropriate initial contact for these executive-branch records: `archives1reference@nara.gov`. NARA currently advises allowing 10–12 business days for a response and not sending duplicate inquiries during that interval.
