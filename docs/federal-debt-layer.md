@@ -80,7 +80,7 @@ The answer cannot come from the debt balance alone. Assumption increased reporte
 
 ## First controlled test
 
-Reconcile 1789 obligations to the funded stocks created under the 1790 act. Then reconstruct 1790–1795 subscriptions, interest payments, sinking-fund purchases, foreign refinancing, and remaining unfunded claims. The annual Historical Debt Outstanding series is only a control total, not the analytical dataset.
+Reconcile 1789 obligations to the funded stocks created under the 1790 act. Then reconstruct annual subscriptions, interest payments, sinking-fund purchases, foreign refinancing, new borrowing, and remaining unfunded claims through 1803. Include the Louisiana stock and claims obligations, with the narrowly bounded 1804 execution records needed to complete the 1803 transaction. The annual Historical Debt Outstanding series is only a control total, not the analytical dataset.
 
 ## Hypotheses
 
@@ -88,7 +88,7 @@ Reconcile 1789 obligations to the funded stocks created under the 1790 act. Then
 2. Assumption centralized fiscal authority and linked creditor interests to the federal government.
 3. Customs capacity made the funding system credible by supplying a visible revenue stream.
 4. Open-market purchases below par retired face value efficiently but could also support security prices.
-5. Improved public credit increased wartime and acquisition capacity, including later Louisiana financing.
+5. Prior payment performance and market access may have affected the terms and feasibility of the 1803 Louisiana obligations; this must be tested using the actual stock sale, intermediary payments, discounts, commissions, and debt-service schedule.
 
 ## Identification limits
 
