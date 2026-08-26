@@ -21,7 +21,7 @@ NARA microfilm publication T964 is a single roll titled *Day Book of the Registe
 
 1. **RG 217 central receipts and expenditures.** Establish exact series identifiers, physical location, volumes, period conventions and reproduction feasibility.
 2. **RG 217 debt audit reports and RG 53 debt accounts.** Separate principal, interest, commissions, exchange, borrowing proceeds and stock transactions.
-3. **RG 56 collector correspondence.** Explain reporting lags, remittance problems, bonding, defaults and disruptions identified in the central accounts.
+3. **RG 56 collector correspondence.** Explain reporting lags, remittance problems, bonding, defaults and disruptions identified in the central accounts. M178 spans 39 rolls for 1789–1833, but it was assembled after the 1833 Treasury fire from multiple surviving sources. It is a reconstruction, not a complete original series; use it only for targeted mechanism tests. See `docs/nara-m178-source-assessment.md`.
 4. **RG 36 customhouse records.** Test physical commodity, merchant, voyage, bonding, drawback and enforcement mechanisms only after a survival matrix prevents opportunistic port selection.
 5. **RG 26 cutter and lighthouse records.** Use for specified infrastructure or enforcement claims, not for the federal customs-share denominator.
 6. **RG 50 Treasurer records.** Defer: the described surviving series largely begin after the project period, and NARA warns that many pre-1829 records were destroyed in the 1833 Treasury fire.
