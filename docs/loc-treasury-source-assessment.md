@@ -34,8 +34,10 @@ The remaining early-looking material is dominated by Revolutionary military acco
 
 ## Access route
 
-LOC states that microfilm reels of manuscript collections are generally eligible for interlibrary loan, subject to collection-specific restrictions. A home library must initiate the request. The initial access request should identify MSS83125 and microfilm shelf 24,495 and ask whether the reel can be lent or digitally reproduced.
+The researcher has direct LOC access, so interlibrary loan is unnecessary. Request the reel through the Manuscript Reading Room, LM 101, using the exact identifiers **MSS83125** and **microfilm shelf 24,495**. LOC states that readers must present a verified Reader Identification Card; staff or building access should not be assumed to replace reading-room registration.
+
+Before visiting, confirm that shelf 24,495 is retrievable in LM 101 and whether advance notice is required. The collection finding aid warns that some manuscript material is stored off-site. Use `docs/requests/loc-mss83125-microfilm-retrieval.md` as the bounded retrieval and inspection sheet.
 
 ## Decision
 
-Do not request all ten containers. The immediate target is shelf 24,495. Boxes 1–4 become targeted follow-ups only if the film or RG 217 daybook exposes a specific unresolved definition, collector, port, or transaction.
+Do not request all ten containers. The immediate target is shelf 24,495 through direct Manuscript Reading Room access. Boxes 1–4 become targeted follow-ups only if the film or RG 217 daybook exposes a specific unresolved definition, collector, port, or transaction.
