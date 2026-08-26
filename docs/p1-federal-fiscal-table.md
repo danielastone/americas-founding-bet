@@ -7,7 +7,8 @@ Test whether realized customs cash was the dominant usable federal receipt and w
 The current files are:
 
 - `data/federal_fiscal_p1.csv`: observation table;
-- `sources/p1-federal-source-inventory.csv`: bounded source and audit queue.
+- `sources/p1-federal-source-inventory.csv`: bounded source and audit queue;
+- `sources/p1-verification-log.csv`: correction and residual-risk record.
 
 The seeded observations are not a conclusion. They demonstrate the accounting distinctions and provide an endpoint-period starting point while the 1789–1800 series is inventoried.
 
@@ -16,17 +17,17 @@ The seeded observations are not a conclusion. They demonstrate the accounting di
 For a consistently defined period:
 
 [
-	ext{customs share} =
-rac{	ext{customs cash received by Treasury}}
-{	ext{operating cash receipts excluding loan proceeds and opening balances}}
+\text{customs share} =
+\frac{\text{customs cash received by Treasury}}
+{\text{operating cash receipts excluding loan proceeds and opening balances}}
 ]
 
 Report a second financing measure:
 
 [
-	ext{customs share of all inflows} =
-rac{	ext{customs cash received by Treasury}}
-{	ext{operating receipts + loan proceeds + asset-sale proceeds}}
+\text{customs share of all inflows} =
+\frac{\text{customs cash received by Treasury}}
+{\text{operating receipts + loan proceeds + asset-sale proceeds}}
 ]
 
 These ratios answer different questions. Neither may combine accrued revenue, duties secured, land-office receipts not transferred, Treasury opening balances, or statutory appropriations with cash received.
@@ -67,9 +68,18 @@ These ratios answer different questions. Neither may combine accrued revenue, du
 6. FRASER searchable text is OCR and must be checked against the report image.
 7. The American State Papers reproduce dated reports but remain a retrospective selected compilation.
 
+## Endpoint audit corrections
+
+The first statement reconciliation produced two material corrections:
+
+- the 1803 report date is October 25, 1803, not October 17;
+- the annual $3,096,700.69 observation is principal redeemed, not a combined principal-and-interest cash-payment measure.
+
+The 1803 customs observation remains a lower bound because the narrative says receipts “exceeded” $10.6 million. The $5.86 million Treasury balance also remains rounded. Neither may be promoted to an exact observation without its supporting statement.
+
 ## Validation sequence
 
-1. Image-check every seeded amount and replace rounded amounts with exact statement figures where available.
+1. Finish image-checking every seeded amount and replace rounded amounts with exact statement figures where available.
 2. Complete a document census for American State Papers Finance covering 1789–1803.
 3. Populate operating receipts for every consistent annual period.
 4. Populate borrowing and asset-sale proceeds separately.
@@ -77,7 +87,7 @@ These ratios answer different questions. Neither may combine accrued revenue, du
 6. Reconcile changes in Treasury specie:
 
 [
-	ext{opening cash + cash inflows - cash outflows = closing cash + explained reconciling items}
+\text{opening cash + cash inflows - cash outflows = closing cash + explained reconciling items}
 ]
 
 7. Calculate customs shares only after denominator completeness and period consistency pass.
@@ -85,4 +95,4 @@ These ratios answer different questions. Neither may combine accrued revenue, du
 
 ## Current status
 
-The table is **transcribed but not validated**. It contains several rounded or OCR-dependent endpoint observations and no complete 1789–1803 denominator. Computing a customs-dominance ratio now would be misleading.
+The table is **partly statement-reconciled but not validated as a series**. It contains rounded endpoint observations and no complete 1789–1803 denominator. Computing a customs-dominance ratio now would be misleading.
