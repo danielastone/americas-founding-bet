@@ -1,37 +1,38 @@
 # Historical sources
 
-This directory records archival and official historical sources used by the project.
+This directory records archival, official, and scholarly historical sources used by the project.
 
-## Status values
+## Scope
 
-- `verified`: title, institution, and landing page were checked.
-- `needs-item-check`: the collection is relevant, but its canonical identifier or item-level records need further verification.
-- `candidate`: potentially relevant but not yet admitted to the working source register.
-- `rejected`: examined and excluded, with the reason retained.
+The core explanatory period is 1789–1803. Records from 1804 may enter only when necessary to complete execution of the Louisiana transfer, claims settlement, or financing authorized in 1803. Later records are comparative or validation evidence.
 
-## Evidence roles
+## Metadata verification status
 
-A source can serve as:
+- verified: title, institution, identifier where available, and landing page were checked.
+- needs-item-check: a canonical item identifier or item-level record remains unresolved.
+- needs-series-check: the exact archival series remains unresolved.
+- candidate: potentially relevant but not yet admitted.
+- rejected: examined and excluded, with the reason retained.
 
-- direct evidence;
-- quantitative input;
-- geographic context;
-- contemporary interpretation;
-- retrospective interpretation; or
-- archival discovery aid.
+Metadata verification does not mean that a source has been transcribed, analyzed, or shown to support a claim.
 
-These roles are not interchangeable. A finding aid can locate evidence but usually does not prove the historical claim.
+## Evidence readiness
 
-## Next source tranche
+- discovery_only: finding aid, portal, collection description, contextual essay, or unresolved item.
+- item_identified: a specific law, treaty, archival item, or comparable primary object is identified.
+- source_identified: a bounded report, dataset, article, or other source is identified but not transformed into project data.
+- transcribed: relevant observations have been extracted and checked.
+- analysis_ready: normalized observations passed provenance and validation rules.
 
-The next controlled expansion should cover:
+No existing source is presumed transcribed or analysis-ready merely because its metadata is verified.
 
-1. Federalist Nos. 10, 14, and 23 from canonical records;
-2. Hamilton’s First Report on Public Credit;
-3. Treasury and customs revenue evidence;
-4. early postal routes and schedules;
-5. port and customs records for New York, Philadelphia, and Baltimore;
-6. contemporary objections to consolidation and internal improvements; and
-7. sources documenting slavery-linked commerce and Indigenous dispossession.
+## Next controlled work
 
-No source should be added solely because it supports the working thesis.
+1. Validate the complete source register.
+2. Build the tariff-and-collection-law chronology through 1803.
+3. Identify exact Treasury, customs, First Bank, state fiscal, merchant, voyage, and Louisiana-financing series.
+4. Extract the federal fiscal spine.
+5. Build one end-to-end merchant–voyage–cargo–credit case.
+6. Add supporting evidence only where it enters a defined table or claim.
+
+Do not add new thematic layers before the core tables contain observations.
