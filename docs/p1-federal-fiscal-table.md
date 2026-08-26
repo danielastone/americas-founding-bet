@@ -10,6 +10,8 @@ The current files are:
 - `sources/p1-federal-source-inventory.csv`: bounded source and audit queue;
 - `sources/p1-verification-log.csv`: correction and residual-risk record;
 - `sources/p1-asp-finance-1789-1800-census.csv`: assertion-specific census of early Finance papers;
+- `data/early_customs_1789_1790.csv`: aggregate staging table for accrued and collector-return customs measures that are not yet cash-compatible;
+- `docs/p1-early-customs-1789-1790.md`: accounting audit for Finance Documents 12 and 22;
 - `docs/p1-asp-finance-census.md`: census scope and extraction rules;
 - `sources/nara-federal-record-groups.csv`: originating-record route map;
 - `docs/nara-archival-strategy.md`: NARA priorities and bounded request.
@@ -71,6 +73,8 @@ These ratios answer different questions. Neither may combine accrued revenue, du
 5. Annual totals cannot establish liquidity sufficiency without bond maturities, remittances, balances, and due dates.
 6. FRASER searchable text is OCR and must be checked against the report image.
 7. The American State Papers reproduce dated reports but remain a retrospective selected compilation.
+8. The earliest customs abstracts label their tables as duties “accrued” or “arising”; a cover letter’s use of “received” does not by itself prove receipt into Treasury.
+9. Missing collector returns make the October 1789–September 1790 import-duty aggregate an incomplete lower bound.
 
 ## Endpoint audit corrections
 
@@ -102,5 +106,7 @@ The 1801 scan confirms customs cash of $10,126,213.92 and corrects internal-reve
 8. Treat P1 as failed, mixed, or passed under the precommitted conditions in `docs/falsification-priorities.md`.
 
 ## Current status
+
+Finance Documents 12 and 22 have now been aggregate-table image checked. Their figures remain in a separate staging table because they measure accrued tonnage duties and import duties arising from collector returns. The later Document 22 period lacks returns from parts of Massachusetts and one Charleston quarter. None of these observations may populate the Treasury-cash numerator until matched to remittance or central-account evidence.
 
 The table is **partly statement-reconciled but not validated as a series**. It contains rounded endpoint observations and no complete 1789–1803 denominator. Computing a customs-dominance ratio now would be misleading.
