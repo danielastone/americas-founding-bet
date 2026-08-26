@@ -57,6 +57,7 @@ No new thematic layer enters the core until these exist.
 - Separate imports, domestic exports, foreign re-exports, and coastwise trade.
 - Separate debt face value, market value, cash proceeds, interest, and redemption.
 - Treat statutes and institutional designs as authority, not proof of implementation.
+- Apply the audit evidence hierarchy before advancing a claim.
 - Do not infer production origin from port exports or profit from trade volume.
 - Record contradictory and missing evidence.
 - Require an explicit counterfactual before making a causal claim.
@@ -67,6 +68,7 @@ No new thematic layer enters the core until these exist.
 
 - [Top-down framework](docs/top-down-framework-1789-1803.md)
 - [Minimum viable project plan](docs/minimum-viable-project-plan.md)
+- [Audit evidence hierarchy](docs/audit-evidence-hierarchy.md)
 - [Tariff and customs-law chronology](docs/tariff-customs-law-chronology-1789-1803.md)
 - [Canonical data dictionary](docs/canonical-data-dictionary.md)
 - [Claim register](claims/claim-register.csv)
