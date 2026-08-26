@@ -28,7 +28,9 @@ RG 56 and microfilm M178 can explain missing returns, delayed remittances, defau
 
 ### 4. Library of Congress Treasury records
 
-The Library of Congress holds a Treasury Department manuscript collection spanning 1775–1890, with the bulk from 1790–1850. Its accounting records may duplicate, supplement, or preserve material outside the NARA route. Container-level review is required before treating it as an alternate dataset.
+The container list identifies one critical candidate: *U.S. Finance, tabular extracts of receipts and expenditures of the United States Treasury, 1784–1790*, available only on microfilm, shelf 24,495. It directly overlaps the unresolved opening years, but its provenance and accounting basis remain unknown. It may be an independent survival, a fair-copy extract, or another derivative of the central Treasury books.
+
+The rest of MSS83125 is not a coherent fiscal series. Relevant supporting items are Box 1 appropriations and circulars, Box 3 general correspondence for 1789–1802, and the Box 4 letterbook. The 1790 loan certificates and 1799–1803 Virginia loan-office stock abstract are financing evidence, not operating receipts. See `sources/loc-treasury-container-map.csv`.
 
 Hamilton collections at LOC and NYPL are searchable complements for specific collectors and reporting problems, but their selective correspondence cannot establish national totals.
 
@@ -55,4 +57,4 @@ Failure on any field keeps the amount in staging.
 
 ## Next action
 
-Wait for NARA's response on RG 217 identifiers while pursuing one independent route: request the container-level description for the Library of Congress Treasury Department Records, limited to accounting records and receipts for 1789–1803. In parallel, locate access to T964. Do not start a broad Hamilton-paper transcription; its expected evidentiary return is lower.
+Wait for NARA's response on RG 217 identifiers while pursuing two microfilm routes: LOC shelf 24,495 for the 1784–1790 tabular extracts and NARA T964 for the 1789–1791 Register daybook. First determine whether LOC microfilm can be borrowed through interlibrary loan or reproduced. Do not start broad transcription of Boxes 1–4 or Hamilton papers; inspect those only when the central tables reveal a specific accounting ambiguity.
