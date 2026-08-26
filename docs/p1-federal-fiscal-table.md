@@ -8,7 +8,9 @@ The current files are:
 
 - `data/federal_fiscal_p1.csv`: observation table;
 - `sources/p1-federal-source-inventory.csv`: bounded source and audit queue;
-- `sources/p1-verification-log.csv`: correction and residual-risk record.
+- `sources/p1-verification-log.csv`: correction and residual-risk record;
+- `sources/p1-asp-finance-1789-1800-census.csv`: assertion-specific census of early Finance papers;
+- `docs/p1-asp-finance-census.md`: census scope and extraction rules.
 
 The seeded observations are not a conclusion. They demonstrate the accounting distinctions and provide an endpoint-period starting point while the 1789–1800 series is inventoried.
 
@@ -84,7 +86,7 @@ The 1801 scan confirms customs cash of $10,126,213.92 and corrects internal-reve
 ## Validation sequence
 
 1. Finish image-checking every seeded amount and replace rounded amounts with exact statement figures where available.
-2. Complete a document census for American State Papers Finance covering 1789–1803.
+2. Complete the remaining header checks in the initial 28-document American State Papers Finance census and extend it through the 1803 endpoint.
 3. Populate operating receipts for every consistent annual period.
 4. Populate borrowing and asset-sale proceeds separately.
 5. Populate interest and principal payments separately.
