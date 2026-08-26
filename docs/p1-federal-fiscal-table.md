@@ -12,6 +12,8 @@ The current files are:
 - `sources/p1-asp-finance-1789-1800-census.csv`: assertion-specific census of early Finance papers;
 - `data/early_customs_1789_1790.csv`: aggregate staging table for accrued and collector-return customs measures that are not yet cash-compatible;
 - `docs/p1-early-customs-1789-1790.md`: accounting audit for Finance Documents 12 and 22;
+- `sources/p1-alternate-customs-sources.csv`: ranked alternatives for bridging collector activity to Treasury cash;
+- `docs/p1-alternate-customs-source-strategy.md`: triangulation and source-admission rules;
 - `docs/p1-asp-finance-census.md`: census scope and extraction rules;
 - `sources/nara-federal-record-groups.csv`: originating-record route map;
 - `docs/nara-archival-strategy.md`: NARA priorities and bounded request.
