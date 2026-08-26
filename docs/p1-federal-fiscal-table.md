@@ -77,7 +77,9 @@ The first statement reconciliation produced two material corrections:
 
 The 1803 customs observation remains a lower bound because the narrative says receipts “exceeded” $10.6 million. The $5.86 million Treasury balance also remains rounded. Neither may be promoted to an exact observation without its supporting statement.
 
-The 1802 scan confirms that $12.28 million was received into Treasury from merchandise and tonnage duties during the year ending September 30, 1802. It remains rounded to the nearest stated ten thousand dollars. The same page confirms that the $326,052.08 public-land total is not Treasury cash: $17,162.50 was paid into Treasury in debt certificates, $179,575.52 in specie, and the residual remained with land-office receivers. Only the specie component belongs in an operating-cash denominator.
+The 1802 scan confirms that $12.28 million was received into Treasury from merchandise and tonnage duties during the year ending September 30, 1802. It remains rounded to the nearest stated ten thousand dollars. The same page confirms that the $326,052.08 public-land total is not Treasury cash: $17,162.50 was paid into Treasury in debt certificates, $179,575.52 in specie, and $129,314.06 remained with land-office receivers. Only the specie component belongs in an operating-cash denominator.
+
+The 1801 scan confirms customs cash of $10,126,213.92 and corrects internal-revenue cash from the OCR-derived $910,219.16 to $919,719.16. It also confirms that $576,888.80 of permanent internal duties and $209,853.32 of stamp duties are calendar-1800 net-revenue measures, not year-ending-September-1801 cash receipts. They remain excluded from the period denominator. Gallatin further estimated that $65,000 of drawbacks chargeable to internal revenue had been paid by customs collectors from external-revenue proceeds. This is a source-attribution adjustment, not an additional cash outflow to subtract from total Treasury receipts.
 
 ## Validation sequence
 
