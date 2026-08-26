@@ -73,6 +73,7 @@ No new thematic layer enters the core until these exist.
 - [Top-down framework](docs/top-down-framework-1789-1803.md)
 - [Minimum viable project plan](docs/minimum-viable-project-plan.md)
 - [Falsification priorities](docs/falsification-priorities.md)
+- [P1 federal fiscal table specification](docs/p1-federal-fiscal-table.md)
 - [Audit evidence hierarchy](docs/audit-evidence-hierarchy.md)
 - [Tariff and customs-law chronology](docs/tariff-customs-law-chronology-1789-1803.md)
 - [Canonical data dictionary](docs/canonical-data-dictionary.md)
