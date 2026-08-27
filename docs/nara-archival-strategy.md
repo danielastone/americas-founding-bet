@@ -51,7 +51,7 @@ The guide pages establish that a series exists; they are **source-discovery evid
 
 ## Immediate archival request
 
-The first inquiry is drafted at `docs/requests/nara-rg217-reference-inquiry.md` and logged as prepared but not sent in `sources/archival-request-log.csv`.
+The first inquiry is drafted at `docs/requests/nara-rg217-reference-inquiry.md` and was sent on August 26, 2026, as recorded in `sources/archival-request-log.csv`. Await the logged response window before sending a duplicate inquiry.
 
 The request remains narrow:
 
@@ -63,7 +63,8 @@ Do not request all early Treasury material. That would produce an expensive, unf
 
 - `sources/nara-federal-record-groups.csv`: source-routing map;
 - `sources/p1-asp-finance-1789-1800-census.csv`: published-document census to reconcile against NARA records;
-- `data/federal_fiscal_p1.csv`: observation table that must retain source and accounting-state distinctions.
+- `data/p1-federal-fiscal-observations.csv`: canonical analytical observation table retaining source, accounting-state, and admission distinctions;
+- `data/p1-endpoint-staging.csv`: noncanonical endpoint staging only; records must pass the reconciliation and admission rules before migration into the canonical table.
 
 ## Online-resolution result
 
