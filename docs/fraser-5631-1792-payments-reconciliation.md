@@ -6,9 +6,9 @@ Primary source: *General Statement of the Appropriations made by law, and of the
 
 This transcription admits the row labeled **“Amount of payments during the year 1792.”** It does not substitute appropriations or unexpended balances for payments.
 
-## Image-verification result
+## Transcription and arithmetic control
 
-The payment row contains 22 statutory-purpose columns. Manual image transcription, followed by OCR cross-checking, produces:
+The payment row contains 22 statutory-purpose columns. One manual image transcription, followed by an OCR cross-check, produces the following arithmetic control. OCR is not an independent image verification; attributable independent verification remains pending:
 
 | Control | Dollars |
 |---|---:|
