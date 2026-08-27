@@ -15,13 +15,15 @@ Corrections:
 - Added inventory rows for `AFB-P1SRC-0001` through `AFB-P1SRC-0003`.
 - Registered the 1897 retrospective Table K screening source as AFB-S095.
 - Preserved the original local IDs as aliases rather than destroying lineage.
+- Added an explicit `evidence_state` field rather than treating overloaded verification labels as analytical admission.
+- Classified only the admitted 1797 Q4 and 1798 Q1 control-group observations as `analysis_ready`; all other observations remain conservatively `normalized`, including provisional 1792.
 
 ## Integrity results
 
 | Test | Result |
 |---|---:|
 | Observation rows | 80 |
-| Observation columns | 22 |
+| Observation columns | 23 |
 | Unique observation IDs | 80 |
 | Orphaned local source IDs | 0 |
 | Orphaned canonical source IDs | 0 |
@@ -33,6 +35,9 @@ Corrections:
 | Missing page or frame | 0 |
 | Missing transcription method | 0 |
 | Missing verification status | 0 |
+| Missing evidence state | 0 |
+| Analysis-ready observations | 9 |
+| Normalized but not analysis-ready observations | 71 |
 
 ## Canonical mappings used
 
@@ -45,6 +50,6 @@ Corrections:
 
 ## Scope limit
 
-This is a provenance and schema audit, not a claim that all observations are admissible in the P1 ratio. Verification statuses still control analytical use. Accrual, assessed, estimated, mixed-period, proxy, opening-balance, accounting-loop, discrepancy, and quarterly-only rows remain excluded or limited according to their recorded status.
+This is a provenance and schema audit, not a claim that all observations are admissible in the P1 ratio. Evidence state controls analytical maturity; verification status records the source-specific check or limitation and does not independently establish analytical admission. Accrual, assessed, estimated, mixed-period, proxy, opening-balance, accounting-loop, discrepancy, and quarterly-only rows remain excluded or limited according to their recorded status.
 
 P1 remains `insufficient_coverage`. The audit improves traceability; it does not create missing annual evidence.
