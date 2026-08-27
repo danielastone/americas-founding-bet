@@ -72,4 +72,4 @@ It cannot independently establish:
 
 ## Falsification consequence
 
-The item does not falsify customs dominance, but it blocks a careless pass. The customs totals are large; the denominator and custody definitions are not yet compatible. The next admissible step is a second image transcription of the annual customs/drawback totals and Statement K controls, followed by an explicit accounting-state decision. If the duties cannot be tied to Treasury receipt, they remain outside the primary P1 ratio regardless of magnitude.
+The item does not falsify customs dominance, but it blocks a careless pass. The customs totals are large; the denominator and custody definitions are not yet compatible. The next admissible step is an attributable independent image verification of the annual customs/drawback totals and Statement K controls; an unattributed second-pass text/arithmetic check already exists but does not satisfy that gate. If the duties cannot be tied to Treasury receipt, they remain outside the primary P1 ratio regardless of magnitude.
