@@ -11,12 +11,7 @@
 
 ## Verification
 
-Two readings were compared:
-
-1. direct visual transcription from the PDF page image;
-2. independent comparison with FRASER's searchable text extraction.
-
-All thirteen credit-side entries and five debit-side entries agree between passes.
+One direct visual transcription was cross-checked against FRASER's searchable text extraction. The searchable text is an OCR-derived aid, not an independent image reading. All thirteen credit-side entries and five debit-side entries agree across the visual transcription and OCR cross-check, but an attributable independent image verification remains pending.
 
 - Credit-side sum: $9,751,136.56
 - Debit-side sum including closing balance: $9,751,136.56
@@ -77,4 +72,4 @@ Consequently, Statement A alone cannot produce `D_c`.
 
 ## Decision
 
-Statement A passes image and arithmetic verification. Thirteen substantive receipt entries, four quarterly expenditure totals, one closing balance, and one control total are preserved in the canonical table. P1 classification remains blocked.
+Statement A reconciles arithmetically and has one direct visual transcription plus an OCR cross-check. It does not yet pass the project's independent-image-verification gate. Thirteen substantive receipt entries, four quarterly expenditure totals, one closing balance, and one control total are preserved in the canonical table, provisionally. P1 classification remains blocked.
