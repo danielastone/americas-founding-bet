@@ -38,6 +38,8 @@ Every commodity observation preserves processing stage, grade, package, original
 
 Finance states remain separate: authorized, assessed, subscribed, face value, market value, cash proceeds, cash received, cash paid, accrued interest, interest paid, principal redeemed, drawback claimed, drawback allowed, drawback paid, and disposition.
 
+For P1 custody and payment classification, `applied_directly` means that proceeds or value satisfied a liability without entering Treasury cash custody. It must not be relabeled `received_into_treasury`, and it cannot enter a cash denominator. Any usable-inflow sensitivity treatment requires an explicit component-map decision and source-supported transaction path.
+
 ## Time and geography
 
 Core period: 1789–1803. Pre-1789 observations are background. Narrow 1804 observations may be endpoint_execution only when needed to complete the 1803 Louisiana transfer, claims, stock, or payment transaction. Later observations are validation or consequence.
