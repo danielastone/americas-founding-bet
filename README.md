@@ -16,6 +16,18 @@ This thesis does **not** assume that the founding financial system caused the Pu
 - **Unit of proof:** linked transactions and reconciled accounts, not thematic narrative
 - **Out of scope:** later territorial expansion, a general history of capitalism, comprehensive consumer welfare, and standalone histories of infrastructure or diplomacy
 
+## Current evidence status
+
+As of 2026-08-27, this repository remains under source-frame feasibility testing:
+
+- none of the seven registered claims has passed or failed;
+- P1 coverage is 0 of 9 required annual-equivalent periods;
+- the three computed P1 controls are provisional and availability-conditioned;
+- no observation is analytically admitted;
+- customs dominance and timely debt-service support require separate P1 and P3 decisions.
+
+See the [red-team synthesis](docs/red-team-synthesis-2026-08-27.md) for the current stop/go plan.
+
 ## Empirical spine
 
 1. A cargo enters or leaves a selected port.
