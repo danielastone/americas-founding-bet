@@ -8,6 +8,8 @@
 
 Eight missing sources were added to the canonical register. The batch closes a provenance gap in the register; it does **not** close P1's evidence-coverage gap.
 
+Red-team retest confirms that the eight rows match the IDs, identifiers, verification labels, and readiness states shown below. The six `verified` labels in this batch are legacy metadata-status labels: the source-register schema does not retain verifier identity, verification date, or a verification-record foreign key.
+
 | ID | Source | Identifier | Verification | Readiness | Decision |
 |---|---|---|---|---|---|
 | AFB-S087 | American State Papers excerpts, 1798 | FRASER 5637 | verified | source_identified | Quarterly evidence only; no annual-equivalent inference |
