@@ -1,7 +1,7 @@
 period_id,observation_id,include_customs_cash,include_nonloan_cash,include_usable_cash,include_debt_service_cash,inclusion_reason
 AFB-P1R-1792,AFB-P1OBS-0002,no,yes,yes,no,non-loan cash receipt
 AFB-P1R-1792,AFB-P1OBS-0003,no,yes,yes,no,non-loan cash receipt
-AFB-P1R-1792,AFB-P1OBS-0004,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1792,AFB-P1OBS-0004,no,no,yes,no,asset-sale inflow excluded from strict non-loan denominator
 AFB-P1R-1792,AFB-P1OBS-0005,no,yes,yes,no,non-loan cash receipt
 AFB-P1R-1792,AFB-P1OBS-0006,no,no,yes,no,financing inflow included only in usable-cash denominator
 AFB-P1R-1792,AFB-P1OBS-0007,no,no,yes,no,financing inflow included only in usable-cash denominator
