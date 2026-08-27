@@ -152,11 +152,31 @@ The source-register audits are accurate within their expressly narrow structural
 
 The first substantive remediation need is an attributable metadata-verification record and an evidentiary-origin key. Neither gap changes P1 coverage, which remains zero.
 
+## Phase 3 — Spot-check FRASER reconciliation claims (complete)
+
+### Scope and method
+
+A bounded source spot-check compared the repository's decisive claims for FRASER items 5631, 5636, and 5637 with the official FRASER page images/searchable PDFs. This was not a complete retranscription of every table.
+
+| Item | Numerical/source result | Governance result |
+|---|---|---|
+| 5631 | Statement A's customs, internal-revenue, receipt-control, and expenditure-control figures reconcile to the printed source. | The assessment mixed zero-based extractor index 16 with PDF ordinal image 17, and OCR was described as an independent reading. Page labels and verification language were corrected. |
+| 5636 | The 1793–1795 duties and drawback controls, the 1795 adjustment, and the cross-period drawback warning agree with the source. Arithmetic identifies the searchable-text value `2,890,334.40` as OCR corruption; the internally consistent printed component is `2,890,034.40`. | The second-pass record lacked an attributable verifier and was not an independent image check. Its claims and inventory admission labels were demoted. |
+| 5637 | The two Treasury accounts support the transcribed Q4 1797 and Q1 1798 receipt controls and debt-service component sums. | The assessment and staging CSV still called the observations admissible/double-verified despite missing verifier attribution. Both were corrected to provisional. |
+
+### Red-team conclusion
+
+**Bounded numerical spot-check: pass.** No material arithmetic discrepancy was found in the decisive figures checked against the three official PDFs.
+
+**Verification governance: fail, repaired at the labeling layer.** OCR/text extraction and unattributed second passes had been treated as independent verification. The affected documentation and staging metadata now state the narrower result: one source reading plus arithmetic/OCR controls, with attributable independent image verification still pending.
+
+This phase creates no analytical admission, evidence-state promotion, or P1 coverage credit. The canonical ratios remain provisional and machine-readable coverage remains zero.
+
 ## Remaining plan
 
 - [x] Phase 0: Orientation
 - [x] Phase 1: Verify 1792 P1 arithmetic
 - [x] Phase 2: Test source-register integrity claims against `sources/source-register.csv`
-- [ ] Phase 3: Spot-check FRASER 5631, 5636, and 5637 reconciliation claims
+- [x] Phase 3: Spot-check FRASER 5631, 5636, and 5637 reconciliation claims
 - [ ] Phase 4: Trace one registered claim through required evidence, sources, data, and admission
 - [ ] Phase 5: Synthesize a balanced overall assessment
