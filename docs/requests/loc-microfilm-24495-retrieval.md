@@ -7,6 +7,12 @@
 - Format/location: microfilm, shelf 24,495
 - Research purpose: determine whether the item can supply or reconcile central federal receipt and expenditure accounts for 1789–1790
 
+## Limits
+
+- Time cap: four hours for the initial reconnaissance.
+- No paid reproduction or unrelated container retrieval is authorized.
+- The objective is classification and feasibility, not full transcription.
+
 ## Before viewing
 
 Confirm:
