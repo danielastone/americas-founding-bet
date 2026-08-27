@@ -1,0 +1,23 @@
+period_id,observation_id,include_customs_cash,include_nonloan_cash,include_usable_cash,include_debt_service_cash,inclusion_reason
+AFB-P1R-1792,AFB-P1OBS-0002,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1792,AFB-P1OBS-0003,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1792,AFB-P1OBS-0004,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1792,AFB-P1OBS-0005,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1792,AFB-P1OBS-0006,no,no,yes,no,financing inflow included only in usable-cash denominator
+AFB-P1R-1792,AFB-P1OBS-0007,no,no,yes,no,financing inflow included only in usable-cash denominator
+AFB-P1R-1792,AFB-P1OBS-0008,no,no,yes,no,financing inflow included only in usable-cash denominator
+AFB-P1R-1792,AFB-P1OBS-0011,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1792,AFB-P1OBS-0012,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1792,AFB-P1OBS-0013,yes,yes,yes,no,customs cash numerator and receipt denominator
+AFB-P1R-1792,AFB-P1OBS-0031,no,no,no,yes,cash debt-service component
+AFB-P1R-1792,AFB-P1OBS-0035,no,no,no,yes,cash debt-service component
+AFB-P1R-1792,AFB-P1OBS-0040,no,no,no,yes,cash debt-service component
+AFB-P1R-1797Q4,AFB-P1OBS-0064,yes,yes,yes,no,customs cash numerator and receipt denominator
+AFB-P1R-1797Q4,AFB-P1OBS-0065,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1797Q4,AFB-P1OBS-0066,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1797Q4,AFB-P1OBS-0067,no,no,yes,no,financing inflow included only in usable-cash denominator
+AFB-P1R-1797Q4,AFB-P1OBS-0068,no,no,no,yes,cash debt-service component
+AFB-P1R-1798Q1,AFB-P1OBS-0071,yes,yes,yes,no,customs cash numerator and receipt denominator
+AFB-P1R-1798Q1,AFB-P1OBS-0072,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1798Q1,AFB-P1OBS-0073,no,yes,yes,no,non-loan cash receipt
+AFB-P1R-1798Q1,AFB-P1OBS-0074,no,no,no,yes,cash debt-service component
