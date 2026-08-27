@@ -10,7 +10,7 @@ The statement inventory is in `sources/fraser-5631-p1-statement-inventory.csv`.
 
 ## Primary P1 candidates
 
-### Statement A, PDF image 16
+### Statement A, PDF ordinal image 17 (extractor index 16)
 
 The *General account of Receipts and Expenditures of Public Moneys* covers January 1–December 31, 1792. Hamilton describes it as receipts into and expenditures from the Treasury corresponding with the Treasurer’s accounts.
 
@@ -56,12 +56,12 @@ The narrative says Statement AB appears elsewhere as document No. 44, printed pa
 
 ## Image-number rule
 
-Repository citations use FRASER/PDF image numbers, not only the printed American State Papers pagination. Printed page numbers may be added after visual verification, but the stable image URL remains mandatory.
+Repository citations distinguish human-facing PDF ordinal images from zero-based extractor indexes and printed American State Papers pagination. For Statement A, extractor index 16 corresponds to PDF ordinal image 17 and printed ASP page 195. The stable image URL remains mandatory.
 
 ## Next extraction order
 
-1. Double-transcribe Statement A, image 16.
-2. Reconcile its arithmetic before classifying components.
+1. Obtain an attributable independent image verification of Statement A, PDF ordinal image 17 (extractor index 16).
+2. Preserve the completed arithmetic reconciliation while keeping analytical admission provisional.
 3. Double-transcribe the payments column on images 41–43.
 4. Use B/Ba only to explain differences.
 5. Transcribe Statement F components only if needed to separate noncustoms cash from accrued internal revenue.
