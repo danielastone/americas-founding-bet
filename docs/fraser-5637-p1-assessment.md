@@ -12,8 +12,8 @@ Both statements are titled accounts of United States “receipts and expenditure
 
 | Period | Customs Treasury cash | Internal duties | Other current/source receipts excluding opening balance |
 |---|---:|---:|---:|
-| 1797-10-01 to 1797-12-31 | $1,982,927.54 | $137,389.37 | $202,813.74 |
-| 1798-01-01 to 1798-03-31 | $1,901,789.82 | $173,158.63 | $68,396.22 |
+| 1797-10-01 to 1797-12-31 | $1,982,927.54 | $137,389.37 | $132,813.74 |
+| 1798-01-01 to 1798-03-31 | $1,901,789.82 | $173,158.63 | $68,397.22 |
 
 For 1797 Q4, “other” is postage, public lands, patent fees, Mint coin, and the Willings and Francis repayment. The separate $70,000 six-percent stock sale is financing and belongs only in a usable-inflows calculation.
 
@@ -21,9 +21,9 @@ For 1798 Q1, “other” is postage, land sales, patent fees, Mint coin, Bank di
 
 These preliminary classifications imply, before second transcription:
 
-- 1797 Q4 operating-receipt customs share: **85.35%**
-- 1797 Q4 usable-inflow customs share including the stock sale: **82.85%**
-- 1798 Q1 operating-receipt customs share: **88.75%**
+- 1797 Q4 operating-receipt customs share: **88.02%**
+- 1797 Q4 usable-inflow customs share including the stock sale: **85.37%**
+- 1798 Q1 operating-receipt customs share: **88.74%**
 
 These are quarterly diagnostic results, not annual P1 observations.
 
