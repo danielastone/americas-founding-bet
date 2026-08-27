@@ -8,7 +8,7 @@
 **Record group:** RG 217, Office of the Register of the Treasury, Receipts and Expenditures Division  
 **Official guide:** https://www.archives.gov/research/guide-fed-records/groups/217.html
 
-The title and one-roll extent are corroborated by NARA's microfilm catalog description. The RG 217 guide lists T964 with the daybooks, ledgers, journals, and abstracts of the Receipts and Expenditures Division.
+The title is corroborated by NARA's published microfilm listing and a 2008 NARA research newsletter. Current public catalog search does not expose a usable T964 item record or digital images. The RG 217 guide places the underlying daybooks, ledgers, journals, and abstracts in the Receipts and Expenditures Division.
 
 ## Evidentiary value
 
@@ -34,7 +34,7 @@ This is potentially stronger than a retrospective annual total, but only if the 
 
 ## Acquisition sequence
 
-1. Await the pending NARA response for the Inventory 14 entry and current series identifier.
+1. Await the pending NARA response for the Inventory 14 entry and current series identifier; the inquiry was sent August 26, 2026, and the logged response window begins September 10.
 2. Ask whether T964 is available onsite, by reproduction, or through another federal repository.
 3. Check LOC's internal catalog or microform holdings directly; public search was inconclusive.
 4. If obtained, capture title, target, provenance, and introductory frames before transaction pages.
