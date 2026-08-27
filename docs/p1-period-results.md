@@ -2,13 +2,13 @@
 
 ## Current result
 
-The repository contains one **provisional** annual control and two admissible quarterly controls. All three exceed the precommitted 50 percent threshold for both strict and usable-inflow customs dominance, but the 1792 annual control does not receive coverage credit until an independent second image verification is documented.
+The repository contains one provisional annual control and two provisional quarterly controls. All three calculated ratios exceed the precommitted 50 percent threshold for both strict and usable-inflow customs dominance, but none is analytically admitted because the required independent verification is not attributable.
 
 | Period | Annual-equivalent credit | C_s | C_u | D_c | Status |
 |---|---:|---:|---:|---:|---|
 | 1792 | 0 pending verification | 93.80% | 72.07% | 89.08% | provisional annual control |
-| 1797 Q4 | 0 | 88.01% | 85.36% | 119.76% | admissible quarterly control |
-| 1798 Q1 | 0 | 88.73% | 88.73% | 46.33% | admissible quarterly control |
+| 1797 Q4 | 0 | 88.01% | 85.36% | 119.76% | provisional; second-check verifier unrecorded |
+| 1798 Q1 | 0 | 88.73% | 88.73% | 46.33% | provisional; second-check verifier unrecorded |
 
 The machine-readable calculations are in `data/p1-period-ratios.csv`.
 
@@ -34,13 +34,13 @@ The 1792 transcriptions were checked visually and against OCR and reconcile arit
 
 ## Coverage consequence
 
-Current admissible annual-equivalent coverage is zero in every window. The quarterly controls receive no annual-equivalent credit.
+Current admissible annual-equivalent coverage is zero in every window. The quarterly controls receive no annual-equivalent credit and are not analytically admitted until an attributable independent check is retained.
 
 P1 remains `insufficient_coverage`. None of the observed ratios should be described as a P1 pass.
 
 ## Next evidence gate
 
-1. Independently re-read and log the 1792 included components.
+1. Obtain an attributable independent re-read of the 1792, 1797 Q4, and 1798 Q1 included components; record verifier identity and date.
 2. Inspect NARA RG 217 abstracts and T964 when available.
 3. Inspect LOC MSS83125 shelf 24,495 for 1789–1790.
 4. Locate exact supporting annual accounts behind the 1801–1803 Treasury narratives.
