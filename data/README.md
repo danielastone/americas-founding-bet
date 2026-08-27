@@ -10,7 +10,7 @@ This directory separates analytical data from staging and control files. A filen
 
 ## Derived analytical outputs
 
-- `p1-period-ratios.csv`: governed period results.
+- `p1-period-ratios.csv`: governed period results; coverage is the sum of `coverage_credit`, never a count of `annual_equivalent=yes` rows.
 - `p1-ratio-component-map.csv`: numerator and denominator membership.
 - `p1-proxy-sensitivity.csv`: explicitly labeled proxy sensitivity results.
 
