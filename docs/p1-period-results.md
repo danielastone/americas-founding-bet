@@ -10,7 +10,7 @@ The repository contains one provisional annual control and two provisional quart
 | 1797 Q4 | 0 | 88.01% | 85.36% | 119.76% | provisional; second-check verifier unrecorded |
 | 1798 Q1 | 0 | 88.73% | 88.73% | 46.33% | provisional; second-check verifier unrecorded |
 
-The machine-readable calculations are in `data/p1-period-ratios.csv`.
+The machine-readable calculations are in `data/p1-period-ratios.csv`. Coverage must be computed from `coverage_credit`; `annual_equivalent` describes duration and is not admission credit.
 
 `D_c` is debt-service cash divided by customs cash—not its inverse. It measures debt-service burden relative to customs receipts and is not a customs-dominance threshold. Each result is reproducible from `data/p1-ratio-component-map.csv`.
 
