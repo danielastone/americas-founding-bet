@@ -105,11 +105,58 @@ The last limitation matters because `D_c` includes $435,263.83 of French-debt pr
 
 No P1 coverage credit is created by this arithmetic check.
 
+## Phase 2 — Test source-register integrity claims (complete)
+
+### Structural retest
+
+The current `sources/source-register.csv` reproduces the audit document's stated structural results:
+
+| Test | Retest result |
+|---|---:|
+| Source rows | 95 |
+| Columns | 14 |
+| Incorrect-width rows | 0 |
+| Empty source IDs | 0 |
+| Duplicate source IDs | 0 |
+| Sequence gaps, AFB-S001–AFB-S095 | 0 |
+| Required-field blanks under the published test | 0 |
+| Malformed nonblank HTTP/HTTPS landing pages | 0 |
+| Blank landing pages | 0 |
+| Blank repository identifiers | 0 |
+
+The controlled-value sets also match the audit:
+
+- verification: `verified`, `needs-item-check`, `needs-series-check`;
+- readiness: `discovery_only`, `item_identified`, `source_identified`.
+
+The P1 metadata table accurately describes AFB-S087–AFB-S094. All canonical source IDs in the P1 source inventory and all 80 canonical observations join to the source register; orphan count is zero in both cases.
+
+### Red-team findings
+
+**Published structural claims: pass.** The audit document's numerical claims match the current CSV.
+
+**Verification attribution: fail.** Eighty-nine register rows carry `verified`, but the schema stores no verifier identity, verification date, or verification-record foreign key. The label is not independently auditable and cannot support analytical admission.
+
+**Evidentiary-origin control: incomplete.** Four landing pages are reused across 11 scoped entries:
+
+- RG 36 guide: four entries;
+- RG 26 guide: three entries;
+- RG 53 guide: two entries;
+- RG 217 guide: two entries.
+
+These are legitimate scoped catalog entries rather than duplicate IDs. They are not independent sources, however, and the register has no machine-readable origin-group key preventing double-counting.
+
+### Conclusion
+
+The source-register audits are accurate within their expressly narrow structural scope. They do not validate titles, dates, creators, identifiers, destination content, source independence, or the meaning of `verified`.
+
+The first substantive remediation need is an attributable metadata-verification record and an evidentiary-origin key. Neither gap changes P1 coverage, which remains zero.
+
 ## Remaining plan
 
 - [x] Phase 0: Orientation
 - [x] Phase 1: Verify 1792 P1 arithmetic
-- [ ] Phase 2: Test source-register integrity claims against `sources/source-register.csv`
+- [x] Phase 2: Test source-register integrity claims against `sources/source-register.csv`
 - [ ] Phase 3: Spot-check FRASER 5631, 5636, and 5637 reconciliation claims
 - [ ] Phase 4: Trace one registered claim through required evidence, sources, data, and admission
 - [ ] Phase 5: Synthesize a balanced overall assessment
