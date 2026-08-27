@@ -24,6 +24,8 @@ Every analytical table must contain record_id, source_id, repository, repository
 
 Unknown values remain null with a reason; they are not silently inferred.
 
+`observed_inferred_or_imputed` is independent of evidence state. Use `observed` when the recorded amount is printed or explicitly stated in the cited source, `inferred` when the repository calculates it from identified source components, and `imputed` only when a documented estimation rule supplies an otherwise unobserved value. An inferred aggregate may become `analysis_ready` only when its components and arithmetic are reproducible; it must never be described as a printed amount.
+
 ## Shared entity identifiers
 
 Use person_id, organization_id, office_id, jurisdiction_id, place_id, customs_district_id, vessel_id, voyage_id, voyage_leg_id, commodity_id, cargo_line_id, instrument_id, household_id, and claim_id. Entity links require provenance and matching confidence. Names alone do not establish identity.
