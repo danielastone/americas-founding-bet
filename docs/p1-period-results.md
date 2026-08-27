@@ -12,6 +12,8 @@ The repository now contains one admissible annual observation and two admissible
 
 The machine-readable calculations are in `data/p1-period-ratios.csv`.
 
+`D_c` is debt-service cash divided by customs cash—not its inverse. It measures the debt-service burden relative to customs receipts and is not a customs-dominance threshold. Each result is now reproducible from `data/p1-ratio-component-map.csv`.
+
 ## 1792 construction
 
 Customs cash received into Treasury was $3,443,070.85. All non-loan cash receipts were $3,674,732.36. Usable inflows were $4,777,230.81 after adding $1,102,498.45 of genuine loan proceeds.
