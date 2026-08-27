@@ -1,4 +1,4 @@
-rule_id,dimension,operator,threshold,unit,scope,decision_use,precommit_status,rule_note,rule_note
+rule_id,dimension,operator,threshold,unit,scope,decision_use,precommit_status,rule_note
 AFB-P1RULE-0001,coverage_minimum,greater_than_or_equal,9,annual_equivalent_periods,full_panel,classification_gate,fixed_before_panel,
 AFB-P1RULE-0002,coverage_per_window,greater_than_or_equal,2,annual_equivalent_periods_each,"1789-1792;1793-1797;1798-1803",classification_gate,fixed_before_panel,clarified_2026-08-27_to_match_partial_period_exclusion_no_result_change
 AFB-P1RULE-0003,period_nonloan_dominance,greater_than,0.50,share,admissible_period,Cs_period_pass,fixed_before_panel,
