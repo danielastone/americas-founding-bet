@@ -16,14 +16,15 @@ Corrections:
 - Registered the 1897 retrospective Table K screening source as AFB-S095.
 - Preserved the original local IDs as aliases rather than destroying lineage.
 - Added an explicit `evidence_state` field rather than treating overloaded verification labels as analytical admission.
-- Classified only the admitted 1797 Q4 and 1798 Q1 control-group observations as `analysis_ready`; all other observations remain conservatively `normalized`, including provisional 1792.
+- Classified only the nine component-map observations supporting the admitted 1797 Q4 and 1798 Q1 controls as `analysis_ready`; all other observations remain conservatively `normalized`, including provisional 1792.
+- Added `observed_inferred_or_imputed` so printed observations are not conflated with analyst arithmetic.
 
 ## Integrity results
 
 | Test | Result |
 |---|---:|
 | Observation rows | 80 |
-| Observation columns | 23 |
+| Observation columns | 24 |
 | Unique observation IDs | 80 |
 | Orphaned local source IDs | 0 |
 | Orphaned canonical source IDs | 0 |
@@ -38,6 +39,9 @@ Corrections:
 | Missing evidence state | 0 |
 | Analysis-ready observations | 9 |
 | Normalized but not analysis-ready observations | 71 |
+| Observed observations | 74 |
+| Inferred arithmetic observations | 6 |
+| Imputed observations | 0 |
 
 ## Canonical mappings used
 
@@ -50,6 +54,6 @@ Corrections:
 
 ## Scope limit
 
-This is a provenance and schema audit, not a claim that all observations are admissible in the P1 ratio. Evidence state controls analytical maturity; verification status records the source-specific check or limitation and does not independently establish analytical admission. Accrual, assessed, estimated, mixed-period, proxy, opening-balance, accounting-loop, discrepancy, and quarterly-only rows remain excluded or limited according to their recorded status.
+This is a provenance and schema audit, not a claim that all observations are admissible in the P1 ratio. Evidence state controls analytical maturity; verification status records the source-specific check or limitation and does not independently establish analytical admission. Observation mode separately identifies whether the amount is printed in the source or calculated by the researcher. Accrual, assessed, estimated, mixed-period, proxy, opening-balance, accounting-loop, discrepancy, and quarterly-only rows remain excluded or limited according to their recorded status.
 
 P1 remains `insufficient_coverage`. The audit improves traceability; it does not create missing annual evidence.
