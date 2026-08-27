@@ -143,6 +143,7 @@ A value is admitted only when it has:
 - an accounting-state classification supported by the source;
 - gross/net treatment;
 - image verification by two passes or an equivalent independent check;
+- for `analysis_ready` rows, a `verification_record_id` that joins to retained verification evidence;
 - a reconciliation group or an explicit reason it cannot be reconciled.
 
 OCR can locate a table but cannot verify a number. Inferred values require identified components and reproducible arithmetic; imputed values are excluded from the primary test unless a later precommitted rule explicitly permits them.
