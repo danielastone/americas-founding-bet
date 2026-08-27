@@ -139,12 +139,13 @@ A value is admitted only when it has:
 - an exact source and item identifier;
 - an exact table or statement and page/frame;
 - the original reporting-period label;
+- an explicit `observed`, `inferred`, or `imputed` observation mode;
 - an accounting-state classification supported by the source;
 - gross/net treatment;
 - image verification by two passes or an equivalent independent check;
 - a reconciliation group or an explicit reason it cannot be reconciled.
 
-OCR can locate a table but cannot verify a number.
+OCR can locate a table but cannot verify a number. Inferred values require identified components and reproducible arithmetic; imputed values are excluded from the primary test unless a later precommitted rule explicitly permits them.
 
 ## Source coverage
 
