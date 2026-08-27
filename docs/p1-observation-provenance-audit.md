@@ -16,7 +16,7 @@ Corrections:
 - Registered the 1897 retrospective Table K screening source as AFB-S095.
 - Preserved the original local IDs as aliases rather than destroying lineage.
 - Added an explicit `evidence_state` field rather than treating overloaded verification labels as analytical admission.
-- Classified only the nine component-map observations supporting the admitted 1797 Q4 and 1798 Q1 controls as `analysis_ready`; all other observations remain conservatively `normalized`, including provisional 1792.
+- Initially classified the nine component-map observations supporting 1797 Q4 and 1798 Q1 as `analysis_ready`, then demoted them to `validated` when no attributable second-check verifier could be found. Provisional 1792 remains `normalized`.
 - Added `observed_inferred_or_imputed` so printed observations are not conflated with analyst arithmetic.
 - Added `verification_record_id` and linked every `analysis_ready` observation to retained verification evidence.
 
@@ -38,13 +38,14 @@ Corrections:
 | Missing transcription method | 0 |
 | Missing verification status | 0 |
 | Missing evidence state | 0 |
-| Analysis-ready observations | 9 |
-| Normalized but not analysis-ready observations | 71 |
+| Analysis-ready observations | 0 |
+| Validated but not analysis-ready observations | 9 |
+| Normalized observations | 71 |
 | Observed observations | 74 |
 | Inferred arithmetic observations | 6 |
 | Imputed observations | 0 |
-| Analysis-ready observations missing verification record | 0 |
-| Distinct verification records supporting analysis-ready rows | 2 |
+| Analysis-ready observations missing attributable verifier | 0 (no rows admitted) |
+| Provisional quarterly verification records lacking verifier identity | 2 |
 
 ## Canonical mappings used
 
@@ -57,6 +58,6 @@ Corrections:
 
 ## Scope limit
 
-This is a provenance and schema audit, not a claim that all observations are admissible in the P1 ratio. Evidence state controls analytical maturity; verification status records the source-specific check or limitation and does not independently establish analytical admission. Observation mode separately identifies whether the amount is printed in the source or calculated by the researcher. `verification_record_id` is the foreign key to `sources/p1-verification-log.csv`; a verification label without retained, joinable evidence is insufficient for `analysis_ready`. Accrual, assessed, estimated, mixed-period, proxy, opening-balance, accounting-loop, discrepancy, and quarterly-only rows remain excluded or limited according to their recorded status.
+This is a provenance and schema audit, not a claim that all observations are admissible in the P1 ratio. Evidence state controls analytical maturity; verification status records the source-specific check or limitation and does not independently establish analytical admission. Observation mode separately identifies whether the amount is printed in the source or calculated by the researcher. `verification_record_id` is the foreign key to `sources/p1-verification-log.csv`; a verification label without retained, joinable evidence is insufficient for `analysis_ready`. Records AFB-P1V-0014 and AFB-P1V-0015 document second-pass work but not who performed it, so their quarterly observations remain `validated`, not `analysis_ready`. Accrual, assessed, estimated, mixed-period, proxy, opening-balance, accounting-loop, discrepancy, and quarterly-only rows remain excluded or limited according to their recorded status.
 
 P1 remains `insufficient_coverage`. The audit improves traceability; it does not create missing annual evidence.
