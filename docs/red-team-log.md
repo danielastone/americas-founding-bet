@@ -207,6 +207,35 @@ Current source states were demoted to the accurate provisional categories. A `su
 
 AFB-C001 remains **untested**, not provisionally supported across 1789–1803. The defensible statement is limited to three availability-conditioned provisional controls. The next decisive task is resolving a designed annual-account source frame; adding another convenient period would not solve the inference problem.
 
+## Phase 5 — Balanced synthesis (complete)
+
+The final assessment is in `docs/red-team-synthesis-2026-08-27.md`.
+
+### Verdict
+
+The repository is a credible pre-conclusion research protocol with an underpowered evidence base. Its falsification design and accounting distinctions are materially stronger than its temporal coverage, selection control, and claim-level evidence.
+
+What survives the red team:
+
+- the research question;
+- the precommitted failure conditions;
+- the accounting-state framework;
+- exact reproducibility of the computed controls;
+- the decision to withhold claim-level conclusions.
+
+What does not survive:
+
+- any implication that the governing thesis is empirically supported across 1789–1803;
+- treating source-available periods as a representative panel;
+- treating revenue composition as proof of timely debt-service support;
+- further thematic expansion before source-frame feasibility is decided.
+
+### Priority decision
+
+The next project gate is federal source-frame feasibility, not another convenient transcription or thematic layer. The project should set a bounded acquisition effort for compatible annual central accounts across the required windows.
+
+If that source frame cannot be built at reasonable cost, the correct result is a narrower case-period project or a publication about source survival and accounting reconstruction. Continuing to accumulate adjacent material would increase sunk cost without increasing the probability of testing the thesis.
+
 ## Remaining plan
 
 - [x] Phase 0: Orientation
@@ -214,4 +243,4 @@ AFB-C001 remains **untested**, not provisionally supported across 1789–1803. T
 - [x] Phase 2: Test source-register integrity claims against `sources/source-register.csv`
 - [x] Phase 3: Spot-check FRASER 5631, 5636, and 5637 reconciliation claims
 - [x] Phase 4: Trace one registered claim through required evidence, sources, data, and admission
-- [ ] Phase 5: Synthesize a balanced overall assessment
+- [x] Phase 5: Synthesize a balanced overall assessment
