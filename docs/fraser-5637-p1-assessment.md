@@ -2,7 +2,7 @@
 
 ## Decision
 
-FRASER item 5637 contains two definition-compatible federal Treasury cash accounts, for **1797 Q4** and **1798 Q1**. They are admissible as quarterly controls. A second image transcription and full statement arithmetic reconciliation are complete. They do not satisfy the project's annual-equivalent coverage floor and therefore do not change P1 from `insufficient_coverage`.
+FRASER item 5637 contains two definition-compatible federal Treasury cash accounts, for **1797 Q4** and **1798 Q1**. They are usable only as provisional quarterly controls. A second-pass check and full statement arithmetic reconciliation are recorded, but the purported independent image verification has no attributable verifier and does not satisfy the admission gate. They do not satisfy the project's annual-equivalent coverage floor and therefore do not change P1 from `insufficient_coverage`.
 
 The statement inventory is in `sources/fraser-5637-p1-statement-inventory.csv`.
 
@@ -19,7 +19,7 @@ For 1797 Q4, “other” is postage, public lands, patent fees, Mint coin, and t
 
 For 1798 Q1, “other” is postage, land sales, patent fees, Mint coin, Bank dividends, and named agent repayments. No loan proceeds appear in the receipts column.
 
-The verified classifications imply:
+The provisional classifications imply:
 
 - 1797 Q4 operating-receipt customs share: **88.01%**
 - 1797 Q4 usable-inflow customs share including the stock sale: **85.36%**
@@ -43,4 +43,4 @@ The expenditure side is period-compatible. Debt-service cash totals $2,374,712.4
 
 ## Falsification consequence
 
-The quarterly accounts strengthen the accounting bridge: at least in two adjacent quarters, customs cash received into Treasury dominated current receipts even after internal duties and miscellaneous receipts are included. They do not establish persistence across 1789-1803. The priority remains locating compatible annual accounts; the next gate is no longer more work on these quarters. It is locating compatible annual Treasury accounts; further refinement of 5637 would have lower value than closing the coverage gap.
+The quarterly accounts provide a provisional accounting-bridge signal: in two adjacent quarters, the transcribed customs cash received into Treasury exceeds the other classified current receipts. This remains a source-reading result, not admitted evidence, until attributable independent image verification is complete. They do not establish persistence across 1789-1803. The priority remains locating compatible annual accounts; the next gate is no longer more work on these quarters. It is locating compatible annual Treasury accounts; further refinement of 5637 would have lower value than closing the coverage gap.
