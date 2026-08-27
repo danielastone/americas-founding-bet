@@ -2,12 +2,12 @@
 
 ## Scope
 
-This record independently verifies:
+This record documents an unattributed second-pass check of:
 
 1. Document 102 annual duties-received and drawbacks-paid controls for 1793-1795, PDF pages 102-104.
 2. Internal Revenue Statement K, PDF page 34.
 
-The first pass was manual image transcription. The second pass used an independent text extraction, component arithmetic, and cross-check against the printed control totals. All admitted observations retain exact fractional cents where printed.
+The first pass was manual image transcription. The second pass used text extraction, component arithmetic, and the printed control totals. Because no verifier identity is recorded and text extraction is not a second image reading, this record does not satisfy the attributable independent-verification gate. All observations retain exact fractional cents where printed.
 
 ## Document 102 controls
 
@@ -79,8 +79,8 @@ Twenty observations, `AFB-P1OBS-0043` through `AFB-P1OBS-0062`, were added to `d
 
 Validation:
 
-- 21 columns per row;
-- 62 unique observations;
+- At the time of this batch: 21 columns per row and 62 unique observations;
+- Current canonical-table dimensions are maintained and tested elsewhere; these historical batch counts are not current-table assertions;
 - no duplicate IDs;
 - 1795 drawback detail plus adjustment equals the printed adjusted total exactly;
 - Statement K components equal the printed revenue-payable total exactly;
@@ -89,7 +89,7 @@ Validation:
 
 ## P1 consequence
 
-No new annual period is admissible for (C_s) or (C_u). The evidence is verified, but the custody and accounting states are incompatible with the primary definitions:
+No new annual period is admissible for (C_s) or (C_u). The figures reconcile in this second pass, but independent verification is still pending and the custody and accounting states are incompatible with the primary definitions:
 
 - customs is collector-stage cash;
 - internal revenue is payable or estimated;
