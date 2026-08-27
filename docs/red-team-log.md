@@ -172,11 +172,46 @@ A bounded source spot-check compared the repository's decisive claims for FRASER
 
 This phase creates no analytical admission, evidence-state promotion, or P1 coverage credit. The canonical ratios remain provisional and machine-readable coverage remains zero.
 
+## Phase 4 — Trace claim AFB-C001 end to end (complete)
+
+The full trace is recorded in `docs/c001-claim-evidence-trace.md`.
+
+### Finding
+
+AFB-C001 combines two distinct propositions: customs dominance (P1) and timely support for debt service (P3). The repository correctly defines separate tests, but the claim sentence compresses them into one assertion. A favorable annual customs share cannot establish liquidity, cash tracing, or timely payment.
+
+The evidence chain reaches reproducible provisional controls, then breaks:
+
+| Gate | Result |
+|---|---|
+| Precommitted P1/P3 rules | Present |
+| Isolated Treasury-cash observations | Present |
+| Complete annual denominators across required windows | Missing |
+| Compatible annual debt-service series | Missing |
+| Remittance, maturity, balance, and bridging panel | Missing |
+| Annual-equivalent coverage | 0 of 9 |
+| Claim decision | Untested |
+
+The currently computed periods are source-available observations, not a designed panel. Generalizing them would convert archival survival into a selection rule.
+
+### Metadata repair
+
+Phase 4 found stale machine-readable status after the Phase 3 narrative repair:
+
+- the P1 source inventory still labeled FRASER 5631, 5636, and 5637 as image verified;
+- the append-only verification log retained earlier 5637 admission claims without a machine-readable supersession link.
+
+Current source states were demoted to the accurate provisional categories. A `superseded_by` field now links verification records AFB-P1V-0014 and AFB-P1V-0015 to their governance corrections AFB-P1V-0023 and AFB-P1V-0024 while preserving audit history.
+
+### Conclusion
+
+AFB-C001 remains **untested**, not provisionally supported across 1789–1803. The defensible statement is limited to three availability-conditioned provisional controls. The next decisive task is resolving a designed annual-account source frame; adding another convenient period would not solve the inference problem.
+
 ## Remaining plan
 
 - [x] Phase 0: Orientation
 - [x] Phase 1: Verify 1792 P1 arithmetic
 - [x] Phase 2: Test source-register integrity claims against `sources/source-register.csv`
 - [x] Phase 3: Spot-check FRASER 5631, 5636, and 5637 reconciliation claims
-- [ ] Phase 4: Trace one registered claim through required evidence, sources, data, and admission
+- [x] Phase 4: Trace one registered claim through required evidence, sources, data, and admission
 - [ ] Phase 5: Synthesize a balanced overall assessment
