@@ -94,13 +94,15 @@ These rules were fixed before the first complete annual panel was transcribed.
 
 ### Coverage floor
 
-Do not classify P1 unless the admissible evidence contains at least nine annual-equivalent periods, including at least two periods from each of these windows:
+Do not classify P1 unless the admissible evidence contains at least nine annual-equivalent periods, including at least two **annual-equivalent periods** from each of these windows:
 
 - opening: 1789–1792;
 - stress and expansion: 1793–1797;
 - mature system and endpoint: 1798–1803.
 
-A partial period counts only in period-level results and does not count as a full annual equivalent. Failure to meet the floor produces `insufficient_coverage`, not `mixed`.
+A partial period counts only in period-level results and receives zero credit toward both the nine-period total and the two-per-window requirement. Failure to meet either part of the floor produces `insufficient_coverage`, not `mixed`.
+
+Machine-readable rule `AFB-P1RULE-0002` was clarified on August 27, 2026, from the ambiguous unit `periods_each` to `annual_equivalent_periods_each`. This aligns the rule with the pre-existing partial-period exclusion and changes no result.
 
 ### Dominance
 
