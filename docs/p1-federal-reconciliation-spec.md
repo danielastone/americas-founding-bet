@@ -108,7 +108,9 @@ Machine-readable rule `AFB-P1RULE-0002` was clarified on August 27, 2026, from t
 
 “Dominant” means an absolute majority, not merely the largest named category.
 
-A period satisfies non-loan dominance when `C_s > 0.50`. It satisfies usable-inflow dominance when `C_u > 0.50`. Exactly 0.50 does not pass.
+A period satisfies non-loan dominance numerically when `C_s > 0.50`. It satisfies usable-inflow dominance numerically when `C_u > 0.50`. Exactly 0.50 does not pass.
+
+Machine-readable threshold labels incorporate evidence admission. Use `pass` only when the period is analytically admitted and the ratio exceeds 0.50. Use `provisional_pass` when the arithmetic exceeds 0.50 but any verification, provenance, reconciliation, or admission gate remains unresolved. A provisional label cannot be counted in pooled or period-share classification.
 
 ### Reconciliation tolerance
 
