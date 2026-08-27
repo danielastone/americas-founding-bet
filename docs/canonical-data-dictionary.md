@@ -16,7 +16,7 @@ Layer-specific schemas are proposals. This file controls shared identifiers, pro
 | validated | Provenance, totals, duplicates, cutoff, classification, and applicable reconciliations passed |
 | analysis_ready | Observation meets a specified claim and its accounting, mechanism, or causal gate |
 
-Metadata verification is separate from evidence state.
+Metadata verification is separate from evidence state. In the P1 canonical table, `verification_status` records the source-specific check, correction, or limitation; `evidence_state` records analytical maturity. A `verified_*` label does not by itself mean `analysis_ready`.
 
 ## Universal provenance fields
 
