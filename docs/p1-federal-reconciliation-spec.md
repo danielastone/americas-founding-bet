@@ -52,6 +52,7 @@ Every observation must use one of these states:
 - `collected_by_collector`: cash received locally;
 - `remitted_or_deposited`: cash transferred toward Treasury custody;
 - `received_into_treasury`: Treasury receipt;
+- `applied_directly`: proceeds or value transferred directly to extinguish or satisfy a liability without entering Treasury cash custody; excluded from cash-receipt denominators and admitted to usable-inflow sensitivity only when the transaction path is source-supported;
 - `appropriated`: legally assigned, not proof of payment;
 - `warranted`: payment authority issued;
 - `paid`: cash disbursed;
@@ -85,7 +86,7 @@ C_u = rac{	ext{customs cash received into Treasury}}{	ext{all usable cash inflo
 D_c = rac{	ext{cash interest + cash principal service}}{	ext{customs cash received into Treasury}}
 ]
 
-These ratios answer different questions and must not be collapsed into one “customs dependence” statistic.
+These ratios answer different questions and must not be collapsed into one “customs dependence” statistic. An `applied_directly` observation is never included in customs cash or the strict non-loan cash denominator. It enters `C_u` only through an explicit component-map decision and must remain separately identifiable.
 
 ## Precommitted thresholds
 
