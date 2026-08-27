@@ -100,7 +100,9 @@ Do not classify P1 unless the admissible evidence contains at least nine annual-
 - stress and expansion: 1793–1797;
 - mature system and endpoint: 1798–1803.
 
-A partial period counts only in period-level results and receives zero credit toward both the nine-period total and the two-per-window requirement. Failure to meet either part of the floor produces `insufficient_coverage`, not `mixed`.
+`annual_equivalent` describes period length only; it does not establish admission. Coverage is computed by summing the machine-readable `coverage_credit` field, not by counting rows where `annual_equivalent=yes`.
+
+A partial period counts only in period-level results and receives `coverage_credit=0` toward both the nine-period total and the two-per-window requirement. An annual-equivalent period also receives zero credit until all admission gates pass. Failure to meet either part of the floor produces `insufficient_coverage`, not `mixed`.
 
 Machine-readable rule `AFB-P1RULE-0002` was clarified on August 27, 2026, from the ambiguous unit `periods_each` to `annual_equivalent_periods_each`. This aligns the rule with the pre-existing partial-period exclusion and changes no result.
 
