@@ -6,7 +6,8 @@ Test whether realized customs cash was the dominant usable federal receipt and w
 
 The current files are:
 
-- `data/federal_fiscal_p1.csv`: observation table;
+- `data/p1-federal-fiscal-observations.csv`: canonical analytical observation table;
+- `data/p1-endpoint-staging.csv`: noncanonical 1801–1803 endpoint staging records; these rows cannot feed ratios directly;
 - `sources/p1-federal-source-inventory.csv`: bounded source and audit queue;
 - `sources/p1-verification-log.csv`: correction and residual-risk record;
 - `sources/p1-asp-finance-1789-1800-census.csv`: assertion-specific census of early Finance papers;
@@ -18,7 +19,7 @@ The current files are:
 - `sources/nara-federal-record-groups.csv`: originating-record route map;
 - `docs/nara-archival-strategy.md`: NARA priorities and bounded request.
 
-The seeded observations are not a conclusion. They demonstrate the accounting distinctions and provide an endpoint-period starting point while the 1789–1800 series is inventoried.
+The endpoint staging records are not a conclusion or a second analytical table. They preserve accounting distinctions and an endpoint-period extraction queue while the observations admitted under the reconciliation specification remain in the canonical table.
 
 ## Primary test
 
@@ -111,4 +112,4 @@ The 1801 scan confirms customs cash of $10,126,213.92 and corrects internal-reve
 
 Finance Documents 12 and 22 have now been aggregate-table image checked. Their figures remain in a separate staging table because they measure accrued tonnage duties and import duties arising from collector returns. The later Document 22 period lacks returns from parts of Massachusetts and one Charleston quarter. None of these observations may populate the Treasury-cash numerator until matched to remittance or central-account evidence.
 
-The table is **partly statement-reconciled but not validated as a series**. It contains rounded endpoint observations and no complete 1789–1803 denominator. Computing a customs-dominance ratio now would be misleading.
+The endpoint staging file is **partly statement-reconciled but not validated as a series**. It contains rounded endpoint observations and no complete 1789–1803 denominator. It must not be used to compute a customs-dominance ratio. Existing period ratios are governed solely by the canonical observation table, component map, reconciliation specification, and their stated coverage controls.
