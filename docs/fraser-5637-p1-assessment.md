@@ -2,7 +2,7 @@
 
 ## Decision
 
-FRASER item 5637 contains two definition-compatible federal Treasury cash accounts, for **1797 Q4** and **1798 Q1**. They are admissible as quarterly controls after a second independent image transcription. They do not satisfy the project's annual-equivalent coverage floor and therefore do not change P1 from `insufficient_coverage`.
+FRASER item 5637 contains two definition-compatible federal Treasury cash accounts, for **1797 Q4** and **1798 Q1**. They are admissible as quarterly controls. A second image transcription and full statement arithmetic reconciliation are complete. They do not satisfy the project's annual-equivalent coverage floor and therefore do not change P1 from `insufficient_coverage`.
 
 The statement inventory is in `sources/fraser-5637-p1-statement-inventory.csv`.
 
@@ -19,11 +19,11 @@ For 1797 Q4, “other” is postage, public lands, patent fees, Mint coin, and t
 
 For 1798 Q1, “other” is postage, land sales, patent fees, Mint coin, Bank dividends, and named agent repayments. No loan proceeds appear in the receipts column.
 
-These preliminary classifications imply, before second transcription:
+The verified classifications imply:
 
-- 1797 Q4 operating-receipt customs share: **88.02%**
-- 1797 Q4 usable-inflow customs share including the stock sale: **85.37%**
-- 1798 Q1 operating-receipt customs share: **88.74%**
+- 1797 Q4 operating-receipt customs share: **88.01%**
+- 1797 Q4 usable-inflow customs share including the stock sale: **85.36%**
+- 1798 Q1 operating-receipt customs share: **88.73%**
 
 These are quarterly diagnostic results, not annual P1 observations.
 
@@ -31,7 +31,7 @@ These are quarterly diagnostic results, not annual P1 observations.
 
 The opening Treasury balance is a stock carried into the period and is excluded from receipt-share denominators. Closing Treasury balances are also stocks. Stock-sale proceeds, dividends, asset receipts, and agent repayments remain separately typed so the strict and usable denominators can be reconstructed rather than silently blended.
 
-The expenditure side is compatible with the same quarter and contains debt-service lines, but some printed lines combine interest and principal reimbursement. A valid `D_c` requires a second transcription and component classification before calculation.
+The expenditure side is period-compatible. Debt-service cash totals $2,374,712.46 in 1797 Q4 and $881,141.30 in 1798 Q1, producing quarterly `D_c` controls of **119.76%** and **46.33%**. The Q4 value above 100% is not an error: debt service drew on opening cash and the period's financing as well as current customs receipts. Some domestic-debt lines combine interest and principal, but both components belong in the defined numerator.
 
 ## Other evidence in the volume
 
@@ -43,4 +43,4 @@ The expenditure side is compatible with the same quarter and contains debt-servi
 
 ## Falsification consequence
 
-The quarterly accounts strengthen the accounting bridge: at least in two adjacent quarters, customs cash received into Treasury dominated current receipts even after internal duties and miscellaneous receipts are included. They do not establish persistence across 1789-1803. The priority remains locating compatible annual accounts; the next local gate is a second independent transcription of pages 81-82 and classification of their debt-service lines.
+The quarterly accounts strengthen the accounting bridge: at least in two adjacent quarters, customs cash received into Treasury dominated current receipts even after internal duties and miscellaneous receipts are included. They do not establish persistence across 1789-1803. The priority remains locating compatible annual accounts; the next gate is no longer more work on these quarters. It is locating compatible annual Treasury accounts; further refinement of 5637 would have lower value than closing the coverage gap.
