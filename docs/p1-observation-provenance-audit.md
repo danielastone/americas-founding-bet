@@ -18,13 +18,14 @@ Corrections:
 - Added an explicit `evidence_state` field rather than treating overloaded verification labels as analytical admission.
 - Classified only the nine component-map observations supporting the admitted 1797 Q4 and 1798 Q1 controls as `analysis_ready`; all other observations remain conservatively `normalized`, including provisional 1792.
 - Added `observed_inferred_or_imputed` so printed observations are not conflated with analyst arithmetic.
+- Added `verification_record_id` and linked every `analysis_ready` observation to retained verification evidence.
 
 ## Integrity results
 
 | Test | Result |
 |---|---:|
 | Observation rows | 80 |
-| Observation columns | 24 |
+| Observation columns | 25 |
 | Unique observation IDs | 80 |
 | Orphaned local source IDs | 0 |
 | Orphaned canonical source IDs | 0 |
@@ -42,6 +43,8 @@ Corrections:
 | Observed observations | 74 |
 | Inferred arithmetic observations | 6 |
 | Imputed observations | 0 |
+| Analysis-ready observations missing verification record | 0 |
+| Distinct verification records supporting analysis-ready rows | 2 |
 
 ## Canonical mappings used
 
@@ -54,6 +57,6 @@ Corrections:
 
 ## Scope limit
 
-This is a provenance and schema audit, not a claim that all observations are admissible in the P1 ratio. Evidence state controls analytical maturity; verification status records the source-specific check or limitation and does not independently establish analytical admission. Observation mode separately identifies whether the amount is printed in the source or calculated by the researcher. Accrual, assessed, estimated, mixed-period, proxy, opening-balance, accounting-loop, discrepancy, and quarterly-only rows remain excluded or limited according to their recorded status.
+This is a provenance and schema audit, not a claim that all observations are admissible in the P1 ratio. Evidence state controls analytical maturity; verification status records the source-specific check or limitation and does not independently establish analytical admission. Observation mode separately identifies whether the amount is printed in the source or calculated by the researcher. `verification_record_id` is the foreign key to `sources/p1-verification-log.csv`; a verification label without retained, joinable evidence is insufficient for `analysis_ready`. Accrual, assessed, estimated, mixed-period, proxy, opening-balance, accounting-loop, discrepancy, and quarterly-only rows remain excluded or limited according to their recorded status.
 
 P1 remains `insufficient_coverage`. The audit improves traceability; it does not create missing annual evidence.
