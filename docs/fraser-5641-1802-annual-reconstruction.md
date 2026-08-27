@@ -75,4 +75,4 @@ The required source is the settled annual Register/Treasurer receipts-and-expend
 3. the $166,612.50 debt-service discrepancy;
 4. cash versus public-debt-evidence payments.
 
-Until then, 1802 remains a partial annual reconstruction and does not count toward the coverage floor.
+Until then, 1802 remains a partial annual reconstruction and does not count toward the coverage floor. A separate bounded scenario and break-even analysis is documented in `docs/p1-1802-proxy-sensitivity.md`; it is sensitivity evidence only.
