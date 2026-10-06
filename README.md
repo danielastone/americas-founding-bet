@@ -91,7 +91,10 @@ No new thematic layer enters the core until these exist.
 - [Tariff and customs-law chronology](docs/tariff-customs-law-chronology-1789-1803.md)
 - [Canonical data dictionary](docs/canonical-data-dictionary.md)
 - [Claim register](claims/claim-register.csv)
-- [Historical source register](sources/historical-source-register.csv)
+- [Source register](sources/source-register.csv)
+- [AFB-C001 collaboration pilot](collaboration/c001-pilot.json)
+- [How to contribute and review](docs/collaboration.md)
+- [Collaboration ontology](docs/collaboration-ontology.md)
 - [Audit and remediation record](docs/audit-remediation-2026-08-26.md)
 
 ## Repository structure

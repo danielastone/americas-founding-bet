@@ -1,5 +1,7 @@
 # Claim AFB-C001 — end-to-end evidence trace
 
+Machine-readable reference links and bounded collaborator tasks are in [the C001 pilot](../collaboration/c001-pilot.json). See [the contribution workflow](collaboration.md). Seeded links remain proposed; they do not change the admission results below.
+
 ## Claim under test
 
 > Customs cash was the dominant usable federal revenue supporting debt service during 1789–1803.
