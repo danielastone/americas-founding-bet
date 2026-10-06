@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "scope": "AFB-C001 pilot; reference layer only; no historical admission or conclusion",
+  "tests": [
+    {
+      "test_id": "AFB-C001-P1",
+      "parent_claim_id": "AFB-C001",
+      "proposition": "Customs cash dominated usable federal revenue during 1789–1803.",
+      "claim_kind": "accounting",
+      "gate_file": "docs/p1-source-frame-feasibility-gate.md",
+      "decision": "untested",
+      "requirements": [
+        "Designed annual source frame",
+        "Complete compatible denominators",
+        "Precommitted coverage and decision thresholds"
+      ],
+      "failure_condition": "Customs dominance fails under the precommitted denominator and coverage rules."
+    },
+    {
+      "test_id": "AFB-C001-P3",
+      "parent_claim_id": "AFB-C001",
+      "proposition": "Customs realization and documented bridging supported timely debt service during 1789–1803.",
+      "claim_kind": "mechanism",
+      "gate_file": "docs/falsification-priorities.md",
+      "decision": "untested",
+      "requirements": [
+        "Remittance dates",
+        "Balances and bond maturities",
+        "Payment due dates and actual dates",
+        "Borrowing and delays"
+      ],
+      "failure_condition": "Timing evidence shows unreliable realization or chronic emergency bridging under the precommitted P3 rule."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "AFB-S015",
+      "inventory_id": "AFB-P1SRC-0001",
+      "origin_group_id": "AFB-ORIGIN-5631",
+      "origin_basis": "FRASER reproduction of Treasury statements; bounded origin grouping, not a finding of independence."
+    },
+    {
+      "source_id": "AFB-S087",
+      "inventory_id": "AFB-P1SRC-0003",
+      "origin_group_id": "AFB-ORIGIN-5637",
+      "origin_basis": "FRASER reproduction of Treasury statements; bounded origin grouping, not a finding of independence."
+    },
+    {
+      "source_id": "AFB-S092",
+      "inventory_id": "AFB-P1S006",
+      "origin_group_id": null,
+      "origin_basis": "Series lead only; item-level ancestry unresolved."
+    }
+  ],
+  "extracts": [
+    {
+      "extract_id": "AFB-EX-001",
+      "source_id": "AFB-S015",
+      "observation_id": "AFB-P1OBS-0013",
+      "locator": "PDF-image-17",
+      "description": "Existing 1792 customs cash observation; original fields remain authoritative.",
+      "inspection": "legacy_reference"
+    },
+    {
+      "extract_id": "AFB-EX-002",
+      "source_id": "AFB-S087",
+      "observation_id": "AFB-P1OBS-0064",
+      "locator": "PDF-image-81",
+      "description": "Existing 1797 Q4 customs cash observation; no annual coverage credit.",
+      "inspection": "legacy_reference"
+    },
+    {
+      "extract_id": "AFB-EX-003",
+      "source_id": "AFB-S087",
+      "observation_id": "AFB-P1OBS-0068",
+      "locator": "PDF-image-81",
+      "description": "Existing inferred 1797 Q4 debt-service aggregate; not a printed standalone amount.",
+      "inspection": "legacy_reference"
+    }
+  ],
+  "links": [
+    {
+      "link_id": "AFB-LINK-001",
+      "test_id": "AFB-C001-P1",
+      "extract_ids": [
+        "AFB-EX-001"
+      ],
+      "relation": "supports",
+      "review_id": null,
+      "status": "proposed",
+      "rationale": "Candidate customs numerator for one provisional annual control; does not establish dominance across the registered period.",
+      "limitations": "Denominator completeness, coverage, and attributable verification require the existing admission gates."
+    },
+    {
+      "link_id": "AFB-LINK-002",
+      "test_id": "AFB-C001-P3",
+      "extract_ids": [
+        "AFB-EX-002",
+        "AFB-EX-003"
+      ],
+      "relation": "qualifies",
+      "review_id": null,
+      "status": "proposed",
+      "rationale": "Quarterly debt-service aggregate exceeds current customs cash; motivates a timing and bridging test.",
+      "limitations": "Aggregate comparison neither traces payments nor proves lateness, default, or chronic emergency borrowing."
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "AFB-TASK-001",
+      "test_id": "AFB-C001-P1",
+      "source_ids": [
+        "AFB-S092"
+      ],
+      "title": "Resolve RG 217 annual source-frame feasibility",
+      "status": "OPEN",
+      "target": "NARA RG 217; catalog routes in the recorded August 31 response",
+      "baseline_file": "docs/requests/nara-rg217-reference-inquiry.md",
+      "acceptable_result": "Item/container list and survival frame across 1789–1803, including gaps and classification changes; score the ten feasibility fields.",
+      "capture_standard": "Series and item identifiers; dates; custody basis; complete relevant headings/pages; access restrictions; researcher and retrieval date.",
+      "stop_rule": "Apply the existing bounded acquisition budget and 3/3/3 coverage rule; no paid orders or visits authorized by this task."
+    },
+    {
+      "task_id": "AFB-TASK-002",
+      "test_id": "AFB-C001-P3",
+      "source_ids": [
+        "AFB-S087"
+      ],
+      "title": "Identify timing records for the 1797 Q4 liquidity question",
+      "status": "OPEN",
+      "target": "Treasury remittances, payment schedules, balances, and borrowing records for 1797 Q4",
+      "baseline_file": "docs/c001-claim-evidence-trace.md",
+      "acceptable_result": "A reproducible lead list or examined item linking due dates, payment dates, cash custody and bridging; explicit gaps permitted.",
+      "capture_standard": "Exact archival locator and complete relevant pages; preserve dates, account states and inferred versus printed amounts.",
+      "stop_rule": "Do not infer timely payment or failure from quarter totals; discovery results cannot advance P3."
+    }
+  ],
+  "submissions": [],
+  "reviews": [],
+  "changes": []
+}
+

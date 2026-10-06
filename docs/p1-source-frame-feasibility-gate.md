@@ -40,7 +40,7 @@ A source may pass through linked books or statements if the links and accounting
 
 | Route | Current status | Decisive question |
 |---|---|---|
-| RG 217 abstracts of receipts and expenditures | Reference inquiry pending | Does a continuous 1789–1803 run survive with stable or reconcilable classifications? |
+| RG 217 abstracts of receipts and expenditures | NARA responded 2026-08-31; item/container resolution remains open | Does a continuous 1789–1803 run survive with stable or reconcilable classifications? |
 | RG 217 daybooks/T964 | Series identified; access unresolved | Do entries identify Treasury posting state, counterparties, and classifications strongly enough to reconcile annual abstracts? |
 | LOC shelf 24,495 Treasury extracts | Candidate not inspected; user has LOC access | Do 1789–1790 tables provide central receipt/expenditure periods and provenance, or are they derivative/incompatible extracts? |
 | American State Papers Finance | Census in progress | Can published statements fill bounded gaps without changing accounting basis? Current evidence says no continuous frame. |
@@ -58,10 +58,10 @@ A source may pass through linked books or statements if the links and accounting
 - Record image/frame references and whether photography or reproduction is permitted.
 - Stop immediately if the reel does not contain the cited item or the tables lack identifiable accounting periods and custody states.
 
-### Work package B — Pending NARA response
+### Work package B — Resolve the recorded NARA response
 
-- Do not duplicate the RG 217 inquiry before the logged response window ends.
-- On receipt, extract series identifiers, entry numbers, container/volume dates, location, microfilm overlap, and reproduction constraints.
+- Start from the [recorded August 31 response](requests/nara-rg217-reference-inquiry.md); do not duplicate the generic RG 217 inquiry.
+- Resolve the supplied catalog routes into series identifiers, entry numbers, container/volume dates, location, microfilm overlap, and reproduction constraints. The response did not supply these item-level details.
 - Request or inspect one representative unit for each target interval: 1789–1790, 1797–1798, 1800–1801, and 1802–1803.
 - No paid reproduction order or archival visit is authorized by this plan.
 
@@ -69,7 +69,7 @@ A source may pass through linked books or statements if the links and accounting
 
 Create a row for every surviving annual unit—not only useful or legible units—and score the ten minimum fields as present, linked, absent, or unknown. Document gaps and classification changes.
 
-Initial research cap before a decision: one LOC reconnaissance session plus analysis of the first substantive NARA response. Any broader copying order, travel, or large transcription batch requires a new decision.
+Initial research cap before a decision: one LOC reconnaissance session plus analysis of the recorded NARA response and its supplied catalog routes. Any broader copying order, travel, or large transcription batch requires a new decision.
 
 ## Decision rule
 
@@ -93,4 +93,4 @@ Stop P1 as designed if central records are inaccessible, discontinuous, or class
 
 ## Immediate action
 
-Retrieve and inspect LOC microfilm shelf 24,495 using `docs/requests/loc-microfilm-24495-retrieval.md`. This is the only immediate acquisition action that is independent of the pending NARA response and capable of changing the opening-window feasibility assessment.
+Retrieve and inspect LOC microfilm shelf 24,495 using `docs/requests/loc-microfilm-24495-retrieval.md`. Resolve the recorded NARA catalog routes through AFB-TASK-001 in the collaboration pilot. This update authorizes no paid acquisition or archival visit.

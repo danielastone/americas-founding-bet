@@ -1,0 +1,32 @@
+name: Research submission
+description: Return a bounded finding or documented search result for review
+title: '[Research] '
+body:
+  - type: input
+    id: task
+    attributes:
+      label: Task ID
+      description: AFB-TASK-001 or AFB-TASK-002 for the current pilot
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Finding and exact proposition
+      description: Explain what is supported, contradicted, qualified or still unknown. Separate catalog leads from examined records.
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Source and capture details
+      description: Repository, collection/series, container/item, page/image, document date, stable URL, complete relevant pages, original wording, researcher and retrieval date, rights/restrictions, and hashes for contributed files.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limitations and search coverage
+      description: Record source ancestry, accounting basis, missing pages, contradictions and search scope. No-result searches do not prove historical absence.
+    validations:
+      required: true
